@@ -1,1 +1,79 @@
-## 練習
+## CASE01：全てのチェックボックスにチェックを入れたい
+
+## ANS：　checked属性をtrueに設定する
+
+### 概要
+チェックボックスがたくさんある状況で、全てにチェックを入れるようにする。また、全て外すようにもしたい。
+
+#### Code
+
+```HTML
+<strong>価格で絞り込む:</strong>
+		<input type="button" name="price_all" id="price_all">全件
+		<input type="button" name="price_all_reset" id="price_all_reset">リセット
+	<div class="price">
+		<input type="checkbox" class="price_num" name="price_num" data-min="1"
+				data-max="50000">1〜50,000円&nbsp;
+		<input type="checkbox" class="price_num" name="price_num" data-min="50001"
+				data-max="100000">50,001〜100,000円&nbsp;
+		<input type="checkbox" class="price_num" name="price_num" data-min="100001"
+				data-max="150000">100,001〜150,000円&nbsp;
+		<input type="checkbox" class="price_num" name="price_num" data-min="150001"
+				data-max="200000">150,001〜200,000円&nbsp;
+		<input type="checkbox" class="price_num" name="price_num" data-min="200001"
+				data-max="250000">200,001〜250,000円&nbsp;
+		<input type="checkbox" class="price_num" name="price_num" data-min="250001"
+				data-max="300000">250,001〜300,000円&nbsp;
+		<input type="checkbox" class="price_num" name="price_num" data-min="300001"
+				data-max="350000">300,001〜350,000円&nbsp;
+		<input type="checkbox" class="price_num" name="price_num" data-min="350001"
+				data-max="400000">350,001〜400,000円&nbsp;
+		<input type="checkbox" class="price_num" name="price_num" data-min="400001"
+				data-max="100000000">400,001円〜&nbsp;<br />
+		<input type="hidden" id="totalPriceNum" name="totalPriceNum">
+	</div>
+```
+
+#### View
+
+![i](https://user-images.githubusercontent.com/105257856/177462981-af954c8e-6b39-4655-b8bb-8e701a8d4e98.png)
+
+↓
+
+![p](https://user-images.githubusercontent.com/105257856/177462988-027c7b13-e79a-44b6-9239-602ef2bed7a8.png)
+
+
+### JS
+
+```JavaScript
+
+// ボタンを取得し変数に格納
+let allBtn = document.getElementById('price_all');
+	let allResetBtn = document.getElementById('price_all_reset');　
+
+//　ボタンがクリックした際に、関数を呼ぶクリックイベントを設定 	
+allBtn.addEventListener('click', function(){
+	allCheck();
+});
+  
+allResetBtn.addEventListener('click' ,function(){
+	allReset();
+})
+	
+//　関数allCheckの定義（checked属性をtrueに）
+function allCheck(){
+	for (let priceNumElement of priceNumElements){
+		priceNumElement.checked = true;　
+　　　　}
+	getPriceNum();
+}
+
+　関数allresetの定義（checked属性をfalseに）
+function allReset(){
+	for (let priceNumElement of priceNumElements){
+		priceNumElement.checked = false;
+　　　　}
+		getPriceNum();
+}
+
+```
