@@ -296,5 +296,35 @@ employees.building IS NULL;
 ```
 
 
+> Exercise ９
+
+1. List all movies and their combined sales in millions of dollars
+
+```SQL
+SELECT title, (domestic_sales + international_sales) / 1000000 AS gross_sales_millions
+FROM movies
+JOIN boxoffice
+ON movies.id = boxoffice.movie_id;
+```
+
+2. List all movies and their ratings in percent
+
+```SQL
+SELECT title, (rating * 10) as hyouka
+FROM movies
+JOIN boxoffice
+ON movies.id = boxoffice.movie_id;
+```
+
+3. List all movies that were released on even number years
+
+```SQL
+SELECT title, year
+FROM movies
+JOIN boxoffice
+ON movies.id = boxoffice.movie_id
+WHERE year % 2 = 0;
+```
+
 
 
