@@ -376,7 +376,31 @@ HAVING role = 'Engineer';
 ```
 
 
+> Exercise 12
 
+#### 実行順序
+
+`FROM(JOIN)　→　WHERE　→　GROUP BY　→　HAVING →　SELECT　→　DISTINCT　→　ORDER BY　→　LIMIT（OFFSET）`
+
+1. Find the number of movies each director has directed
+
+```SQL
+SELECT director, count(*) as mov_cut
+FROM movies
+JOIN boxoffice
+ON movies.id = boxoffice.movie_id
+GROUP BY director;
+```
+
+2. Find the total domestic and international sales that can be attributed to each director
+
+```SQL
+SELECT director, sum(domestic_sales + international_sales) as sales_total
+FROM movies
+JOIN boxoffice
+ON movies.id = boxoffice.movie_id
+GROUP BY director;
+```
 
 
 
