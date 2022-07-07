@@ -11,6 +11,6 @@
 
 - [SQL](/SQL)
   - [HAVING句](/SQL/HAVING句.md)　達人に学ぶSQL徹底指南書（SHOEISHA 著：ミック）から学んだことをアウトプット
-  - [SQLBolt](/SQL/SQLBolt.md)　SQL学習サイト（[SQLBot](https://sqlbolt.com/)）での学習の記録
+  - [SQLBolt](/SQL/SQLBolt.md)　SQL学習サイト（[SQLBolt](https://sqlbolt.com/)）での学習の記録
 
 - [Git](/Git)
