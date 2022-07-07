@@ -106,7 +106,46 @@ SELECT * FROM movies WHERE title like 'WALL-%';
 ```
 
 
+> Exercise 4
 
+> Even though the data in a database may be unique, the results of any particular query may not be – take our Movies table for example, many different movies can be released the same year. In such cases, SQL provides a convenient way to discard rows that have a duplicate column value by using the DISTINCT keyword.
 
+データの重複を削除する際に`DISTINCT`を用いる
 
+1. List all directors of Pixar movies (alphabetically), without duplicates
 
+```SQL
+SELECT DISTINCT director FROM movies ORDER BY director;
+```
+
+> The LIMIT will reduce the number of rows to return, and the optional OFFSET will specify where to begin counting the number rows from.
+
+LIMITは返される行数を制限する。OFFSETで行数のカウントを開始する場所を指定できる。
+
+2. List the last four Pixar movies released (ordered from most recent to least)
+
+```SQL
+SELECT * FROM movies ORDER BY year DESC LIMIT 4;
+```
+
+3.  List the first five Pixar movies sorted alphabetically
+
+```SQL
+SELECT * FROM movies ORDER BY title LIMIT 5;
+```
+
+4. List the next five Pixar movies sorted alphabetically
+
+```SQL
+SELECT * FROM movies ORDER BY title LIMIT 5 OFFSET 5;
+```
+
+OFFSETの省略型
+
+```SQL
+SELECT * FROM movies ORDER BY title LIMIT 5, 5;
+```
+
+6番目から１０番目を選択したかったので、OFFSETは５を指定（indexとして１つ目が０番目なのだと）。
+
+LIMITを省略してOFFSETのみを書くことはできない。　　
