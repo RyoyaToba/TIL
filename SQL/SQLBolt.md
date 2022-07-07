@@ -149,3 +149,56 @@ SELECT * FROM movies ORDER BY title LIMIT 5, 5;
 6番目から１０番目を選択したかったので、OFFSETは５を指定（indexとして１つ目が０番目なのだと）。
 
 LIMITを省略してOFFSETのみを書くことはできない。　　
+
+
+> Exercise 5 
+
+1.  List all the Canadian cities and their populations
+
+```SQL
+SELECT city, population FROM North_american_cities WHERE country = 'Canada';
+```
+
+2. Order all the cities in the United States by their latitude from north to south
+
+```SQL
+SELECT * FROM North_american_cities WHERE country = 'United States' ORDER BY latitude DESC;
+```
+
+3. List all the cities west of Chicago, ordered from west to east
+
+```SQL
+SELECT * FROM North_american_cities WHERE longitude < -87.629798 ORDER BY Longitude;
+```
+
+ これはサブクエリをつかってもいいかもしれない
+
+```SQL
+SELECT * FROM North_american_cities 
+WHERE 
+longitude < (SELECT longitude FROM North_american_cities WHERE city = 'Chicago')
+ORDER BY Longitude;
+```
+
+4. List the two largest cities in Mexico (by population)
+
+```SQL
+SELECT * FROM North_american_cities WHERE country = 'Mexico' ORDER BY population DESC LIMIT 2;
+```
+
+5. List the third and fourth largest cities (by population) in the United States and their population
+
+```SQL
+SELECT * FROM North_american_cities WHERE country = 'United States' ORDER BY population DESC LIMIT 2 OFFSET 2;
+```
+
+
+
+
+
+
+
+
+
+
+
