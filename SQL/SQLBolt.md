@@ -240,6 +240,37 @@ ORDER BY
 rating DESC;
 ```
 
+デフォルトはINNER JOINになる
+
+
+> Exercise ７
+
+1. Find the list of all buildings that have employees
+
+```SQL
+SELECT DISTINCT building FROM employees;
+```
+
+2. Find the list of all buildings and their capacity
+
+```SQL
+SELECT * FROM buildings;
+```
+
+3. List all buildings and the distinct employee roles in each buiding (including empty buildings)
+
+```SQL
+SELECT DISTINCT
+building_name
+,role
+FROM
+buildings
+LEFT OUTER JOIN
+employees
+ON
+building = building_name;
+```
+
 
 
 
