@@ -67,7 +67,7 @@ SELECT * FROM movies WHERE year NOT BETWEEN '2000' AND '2010';
 ```SQL
 SELECT * FROM movies ORDER BY year LIMIT 5;
 ```
-別解（これでいいんかい）
+別解（これでよいらしい）
 ```SQL
 SELECT title, year FROM movies WHERE year <= 2003;
 ```
@@ -193,8 +193,52 @@ SELECT * FROM North_american_cities WHERE country = 'United States' ORDER BY pop
 ```
 
 
+> Exercise 6
 
+1. Find the domestic and international sales for each movie
 
+```SQL
+SELECT 
+m.title
+,b.domestic_sales
+,b.international_sales
+FROM
+movies as m
+JOIN
+boxoffice as b
+ON
+m.id = b.movie_id
+```
+
+2. Show the sales numbers for each movie that did better internationally rather than domestically
+
+```SQL
+SELECT
+*
+FROM
+movies as m
+JOIN
+boxoffice as b
+ON
+m.id = b.movie_id
+WHERE
+international_sales > domestic_sales
+```
+
+3. List all the movies by their ratings in descending order
+
+```SQL
+SELECT
+*
+FROM
+movies as m
+JOIN
+boxoffice as b
+ON
+m.id = b.movie_id
+ORDER BY
+rating DESC;
+```
 
 
 
