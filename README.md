@@ -14,4 +14,4 @@
   - [SQLBolt](/SQL/SQLBolt.md)　SQL学習サイト（[SQLBolt](https://sqlbolt.com/)）での学習の記録
 
 - [Git](/Git)
-  - [markdown](/Git/マークダウン.md)　よく使うマークダウンのまとめ
+  - [markdown](/Git/markdown.md)　よく使うマークダウンのまとめ
