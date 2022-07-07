@@ -1,4 +1,4 @@
-## What`s  SQLBolt?
+## What's  SQLBolt
 
 > Welcome to SQLBolt, a series of interactive lessons and exercises designed to help you quickly learn SQL right in your browser.
 
@@ -324,6 +324,28 @@ FROM movies
 JOIN boxoffice
 ON movies.id = boxoffice.movie_id
 WHERE year % 2 = 0;
+```
+
+> Exercise 10
+
+1. Find the longest time that an employee has been at the studio
+
+```SQL
+SELECT max(years_employed) FROM employees;
+```
+
+2. For each role, find the average number of years employed by employees in that role
+
+```SQL
+SELECT role, avg(years_employed) FROM employees GROUP BY role;
+```
+
+3. Find the total number of employee years worked in each building
+
+```SQL
+SELECT building, sum(years_employed)
+FROM employees
+GROUP BY building;
 ```
 
 
