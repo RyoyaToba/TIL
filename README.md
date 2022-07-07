@@ -6,10 +6,10 @@
 
 - [Java](/Java)
 
-- [JavaScript]/JavaScript)
+- [JavaScript](/JavaScript)
 
-- [SQL](https://github.com/RyoyaToba/TIL/tree/main/SQL)
-  - [HAVING句](/TIL/blob/main/SQL/HAVING句.md)
-  - [SQLBolts](/TIL/blob/main/SQL/SQLBolt.md)
+- [SQL](/SQL)
+  - [HAVING句](/SQL/HAVING句.md)
+  - [SQLBolts](/SQL/SQLBolt.md)
 
 - [Git](/Git)
