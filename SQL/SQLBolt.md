@@ -62,6 +62,8 @@ SELECT * FROM movies WHERE year NOT BETWEEN '2000' AND '2010';
 4. Find the first 5 Pixar movies and their release year
 
 自分の回答
+
+表が見えていない場合もありますし、別解だと年が変わった時に対応できないので、私の回答がベストだと思います。
 ```SQL
 SELECT * FROM movies ORDER BY year LIMIT 5;
 ```
@@ -71,8 +73,37 @@ SELECT title, year FROM movies WHERE year <= 2003;
 ```
 
 
+> Exercise 3
 
+1. Find all the Toy Story movies
 
+```SQL
+SELECT * FROM movies WHERE title like '%Toy Story%';
+```
+
+2. Find all the movies directed by John Lasseter
+
+```SQL
+SELECT * FROM movies WHERE director = 'John Lasseter';
+```
+
+3. Find all the movies(and director) not ditected by John Lasseter
+
+こっちのほうがよく見る
+```SQL
+SELECT * FROM movies WHERE director <> 'John Lasseter';
+```
+
+別解
+```SQL
+SELECT * FROM movies WHERE director != 'John Lasseter';
+```
+
+4. Find all the WALL-* movies
+
+```SQL
+SELECT * FROM movies WHERE title like 'WALL-%';
+```
 
 
 
