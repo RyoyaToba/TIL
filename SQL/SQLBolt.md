@@ -473,3 +473,29 @@ Download_count INTEGER
 );
 ```
 
+
+> Exercise 17
+
+> As your data changes over time, SQL provides a way for you to update your corresponding tables and database schemas by using the ALTER TABLE statement to add, remove, or modify columns and table constraints.
+
+ALTER　TABLEを利用することで、列とテーブルの制約を追加、削除、または変更することができる。
+
+1. Add a column named Aspect_ratio with a FLOAT data type to store the aspect-ratio each movie was released in.
+
+```SQL
+ALTER TABLE movies
+ADD COLUMN Aspect_ratio FLOAT
+DEFAULT 2.39;
+```
+
+2. Add another column named Language with a TEXT data type to store the language that the movie was released in. Ensure that the default for this language is English.
+
+```SQL
+ALTER TABLE movies
+ADD COLUMN Language TEXT
+DEFAULT English;
+```
+
+
+
+
