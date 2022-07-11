@@ -5,6 +5,8 @@
 ### 学習内容
 
 - [Java](/Java)
+  - thymeleaf
+     - [List内のMapの取り出し方](/Java/thymeleaf/List内のmapの取り出し方.md)
 
 - [JavaScript](/JavaScript)
   - [チェックボックスにチェックを入れる](/JavaScript/チェックボックスにチェックを入れる.md) JavaScriptでチェックボックスにチェックを入れる方法
