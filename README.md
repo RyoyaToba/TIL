@@ -1,6 +1,6 @@
 ## TILについて
 
-日々の学習記録。知識のアウトプットとGitの使い方（主にマークダウンですが）を同時に学べる。
+学習記録。memo
 
 ### 学習内容
 
@@ -10,6 +10,7 @@
 
 - [JavaScript](/JavaScript)
   - [チェックボックスにチェックを入れる](/JavaScript/チェックボックスにチェックを入れる.md) JavaScriptでチェックボックスにチェックを入れる方法
+  - [linear-gradient、四捨五入の仕方](/JavaScript/linear-gradient.md) backgroundのlinear-gradientの設定方法、数値の四捨五入
 
 - [SQL](/SQL)
   - [HAVING句](/SQL/HAVING句.md)　達人に学ぶSQL徹底指南書（SHOEISHA 著：ミック）から学んだことをアウトプット
