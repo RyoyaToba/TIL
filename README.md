@@ -8,7 +8,7 @@
   - thymeleaf
      - [List内のMapの取り出し方](/Java/thymeleaf/List内のmapの取り出し方.md)
   - JUnit
-     - [JUnitの概要](/Java/Junit/Junitの概要.md)
+     - [Junitの概要](/Java/Junit/Junitの概要.md)
      - [Mockito](/Java/Junit/Mockito.md)
      - [TDD](/Java/Junit/TDD（テスト駆動開発）.md)
 
