@@ -1,5 +1,5 @@
-## CASE: backgroundのliner-gradient属性をJSで設定したい
-## ANS:　.style.background = 'linear-gradientによって指定する
+## 目的：backgroundのliner-gradient属性をJSで設定したい
+## 回答：.style.background = 'linear-gradientによって指定する
 
 
 ```JavaScript
