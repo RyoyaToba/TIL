@@ -7,14 +7,18 @@
 - [Java](/Java)
   - thymeleaf
      - [List内のMapの取り出し方](/Java/thymeleaf/List内のmapの取り出し方.md)
+  - JUnit
+     - [JUnitの概要](/Java/thymeleaf/JUnitの概要.md)
+     - [Mockito](/Java/thymeleaf/Mockito.md)
+     - [TDD](/Java/thymeleaf/TDD（テスト駆動開発）.md)
 
 - [JavaScript](/JavaScript)
-  - [チェックボックスにチェックを入れる](/JavaScript/チェックボックスにチェックを入れる.md) JavaScriptでチェックボックスにチェックを入れる方法
-  - [linear-gradient、四捨五入の仕方](/JavaScript/linear-gradient.md) backgroundのlinear-gradientの設定方法、数値の四捨五入
+  - [チェックボックスにチェックを入れる](/JavaScript/チェックボックスにチェックを入れる.md) 
+  - [linear-gradient、四捨五入の仕方](/JavaScript/linear-gradient.md) 
 
 - [SQL](/SQL)
-  - [HAVING句](/SQL/HAVING句.md)　達人に学ぶSQL徹底指南書（SHOEISHA 著：ミック）から学んだことをアウトプット
-  - [SQLBolt_tutorial](/SQL/SQLBolt_tutorial.md)　SQL学習サイト（[SQLBolt](https://sqlbolt.com/)）での学習の記録
+  - [HAVING句](/SQL/HAVING句.md)　
+  - [SQLBolt_tutorial](/SQL/SQLBolt_tutorial.md)
 
 - [Git](/Git)
-  - [markdown](/Git/markdown.md)　よく使うマークダウンのまとめ
+  - [markdown](/Git/markdown.md)　
