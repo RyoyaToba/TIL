@@ -8,9 +8,9 @@
   - thymeleaf
      - [List内のMapの取り出し方](/Java/thymeleaf/List内のmapの取り出し方.md)
   - JUnit
-     - [JUnitの概要](/Java/thymeleaf/JUnitの概要.md)
-     - [Mockito](/Java/thymeleaf/Mockito.md)
-     - [TDD](/Java/thymeleaf/TDD（テスト駆動開発）.md)
+     - [JUnitの概要](/Java/JUnit/JUnitの概要.md)
+     - [Mockito](/Java/JUnit/Mockito.md)
+     - [TDD](/Java/JUnit/TDD（テスト駆動開発）.md)
 
 - [JavaScript](/JavaScript)
   - [チェックボックスにチェックを入れる](/JavaScript/チェックボックスにチェックを入れる.md) 
