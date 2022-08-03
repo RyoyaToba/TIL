@@ -13,7 +13,7 @@
   - JPA
      - [JPAとは](/Java/JPA/JPAとは.md)
   - MyBatis
-     - [JPAとは](/Java/MyBatis/MyBatisとは.md)
+     - [MyBatisとは](/Java/MyBatis/MyBatisとは.md)
 
 - [JavaScript](/JavaScript)
   - [チェックボックスにチェックを入れる](/JavaScript/チェックボックスにチェックを入れる.md) 
