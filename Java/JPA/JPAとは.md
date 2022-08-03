@@ -42,3 +42,16 @@ public class Hello {
 （４）　Columnアノテーションを付与し、マッピングさせるカラム名を指定する
 
 （５）　GeneratedValueアノテーションを付与することで、主キーの生成をJPAに委ねることができるstrategy属性にGenerateTypeを指定することで、生成方法をしていすることが可能←？
+
+
+## EntityManager
+
+Entityを必要に応じてDBとの同期を取る役割を担うのがEntityManager。要はこの人がEntityを所得したり、DBとの橋渡しをしてくれるっぽい。
+後述するSpring Data JPAではEntityManagerの存在が隠蔽されており、利用者がEntityManagerの存在を意識することがなく、開発できる。
+
+## 関連
+
+Comming Soon
+
+## Spring Data JPA
+JPAの煩わしさを軽減したもの。
