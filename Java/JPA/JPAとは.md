@@ -55,3 +55,5 @@ Comming Soon
 
 ## Spring Data JPA
 JPAの煩わしさを軽減したもの。
+
+参考：　Spring徹底入門
