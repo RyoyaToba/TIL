@@ -17,15 +17,15 @@ id|name
 package com.example.demo.entity;
 
 @Entity・・・⑴
-@Table(name = "hello")
+@Table(name = "hello")・・・（２）
 public class Hello {
 
-	@Id
-	@Column(name = "id") ・・・（２）
-	@GeneratedValue(strategy = GenerationType.IDENTITY)・・・（３）
+	@Id・・・（３）
+	@Column(name = "id") ・・・（４）
+	@GeneratedValue(strategy = GenerationType.IDENTITY)・・・（５）
 	private Integer id;
 
-	@Column(name = "name")・・・（２）
+	@Column(name = "name")・・・（４）
 	private String name;
   
   //以下ゲッターセッター
@@ -34,3 +34,10 @@ public class Hello {
 ```
 
 （１）　Entityアノテーションを付与し、Entityクラスであることを宣言
+
+（２）　Tableアノテーションを付与し、マッピングさせるテーブル名を指定する
+
+（３）　Idアノテーションを付与し、主キーであることを宣言する
+
+（４）　Columnアノテーションを付与し、マッピングさせるカラム名を指定する
+
