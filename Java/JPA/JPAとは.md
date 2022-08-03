@@ -1,6 +1,6 @@
 ## JPAとは
 
->JPAは2006年にリリースされたJavaEE５で使用おが定められているJava標準のORM（Object-Relational Mapper）。
+>JPAは2006年にリリースされたJavaEE５で使用が定められているJava標準のORM（Object-Relational Mapper）。
 オブジェクト指向言語とDB間の溝を埋めようとする思想。オブジェクトとDBのマッピングを行う役割を担う。
 
 ## Entity
