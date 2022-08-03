@@ -41,3 +41,4 @@ public class Hello {
 
 （４）　Columnアノテーションを付与し、マッピングさせるカラム名を指定する
 
+（５）　GeneratedValueアノテーションを付与することで、主キーの生成をJPAに委ねることができるstrategy属性にGenerateTypeを指定することで、生成方法をしていすることが可能←？
