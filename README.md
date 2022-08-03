@@ -11,9 +11,9 @@
      - [Mockito](/Java/Junit/Mockito.md)
      - [TDD](/Java/Junit/TDD（テスト駆動開発）.md)
   - JPA
-     - [JPAの概要](/Java/JPA/JPAの概要.md)
+     - [JPAの概要](/Java/JPA/JPAとは.md)
   - MyBatis
-     - [JPAの概要](/Java/MyBatis/MyBatisの概要.md)
+     - [JPAの概要](/Java/MyBatis/MyBatisとは.md)
 
 - [JavaScript](/JavaScript)
   - [チェックボックスにチェックを入れる](/JavaScript/チェックボックスにチェックを入れる.md) 
