@@ -10,7 +10,7 @@
 
 ## SQLの指定方法
 
-* SQLをマッピングファイルに設定
+* SQLをマッピングファイルに設定（XMLファイルはMapperインターフェイスと同じ階層に配置する）
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -48,3 +48,19 @@ public interface HelloRepository {
 	public Hello load(Integer id);
 }
 ```
+
+
+## 動的SQLについて
+
+MyBatisの応用的な使い方として動的SQLが挙げられる。
+
+
+
+
+
+
+
+
+
+
+
