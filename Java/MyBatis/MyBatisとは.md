@@ -54,7 +54,15 @@ public interface HelloRepository {
 
 MyBatisの応用的な使い方として動的SQLが挙げられる。
 
+**<if>**
 
+**<choose>**
+
+**<foreach>**
+
+**<set>**
+
+**<where>**
 
 
 
