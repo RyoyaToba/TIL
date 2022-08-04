@@ -2,6 +2,7 @@
 日々の学習したことの記録を行なっています。
 
 ### 学習内容
+- [AWS](/AWS)
 
 - [Java](/Java)
   - thymeleaf
@@ -14,6 +15,8 @@
      - [JPAとは](/Java/JPA/JPAとは.md)
   - MyBatis
      - [MyBatisとは](/Java/MyBatis/MyBatisとは.md)
+     - [動的SQL](/Java/MyBatis/動的SQL.md)
+     - [高度なマッピング](/Java/MyBatis/高度なマッピング.md)
 
 - [JavaScript](/JavaScript)
   - [チェックボックスにチェックを入れる](/JavaScript/チェックボックスにチェックを入れる.md) 
