@@ -117,3 +117,46 @@ SELECT * FROM BLOG WHERE AND title like 'hoge'
 ```
 
 set要素が余分なカンマを削除してくれる。
+
+
+### choose when otherwise
+
+多くの中から１つを条件として選択したい場合に有効なタグ。指定された条件によって、SQLが動的に変動する。
+
+```xml
+<select id="findActiveBlogLike"
+     resultType="Blog">
+  SELECT * FROM BLOG WHERE state = ‘ACTIVE’
+  <choose>
+    <when test="title != null">
+      AND title like #{title}
+    </when>
+    <when test="author != null and author.name != null">
+      AND author_name like #{author.name}
+    </when>
+    <otherwise>
+      AND featured = 1
+    </otherwise>
+  </choose>
+</select>
+```
+
+### foreach
+
+コレクション要素をイテレーション処理したいときに使用する。例えば、IN演算子を使う場合など。ここはまだいまいちピンと来ていないので、調査中。
+
+```xml
+<select id="selectPostIn" resultType="domain.blog.Post">
+  SELECT *
+  FROM POST P
+  <where>
+    <foreach item="item" index="index" collection="list"
+        open="ID in (" separator="," close=")" nullable="true">
+          #{item}
+    </foreach>
+  </where>
+</select>
+```
+
+### 参考
+[MyBatis公式ドキュメント](https://mybatis.org/mybatis-3/ja/dynamic-sql.html)
