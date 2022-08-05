@@ -75,7 +75,7 @@ SELECT * FROM BLOG WHERE AND title like 'hoge'
 
 のように、構文エラーとなってしまう。これを解決するために、WHEREタグを使うと良い。
 
-```SQL
+```
 <select id="findActiveBlogLike"　　resultType="Blog">
   SELECT * FROM BLOG
   <where>
