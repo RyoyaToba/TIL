@@ -15,3 +15,40 @@ OS、ライブラリ、アプリケーションをひとまとまりにしたパ
 2. docker デーモンがレジストリからイメージを取得
 3. イメージからコンテナを作成
 4. コンテナを起動
+
+## dockerコマンド
+
+## Docker fileを作る
+
+Dockerfileの中には、ベースのファイルを指定し、その後でどんな作業をするかを記述していく。
+
+## Docker Compose
+
+複数のアプリケーションをまとめて操作
+
+docker-compose.ymlに記述していく
+
+### docker-compose build
+
+イメージのビルド
+
+### docker-compose up -d
+
+コンテナの作成と起動
+
+### docker-compose down
+
+コンテナを停止
+
+### docker-compose ps
+
+コンテナ一覧を表示
+
+### docker-compose run サービス名　コマンド
+
+コンテナを作成してコマンドを実行
+
+### docker-compose exec サービス名　コマンド
+
+起動中のコンテナにコマンドを実行
+
