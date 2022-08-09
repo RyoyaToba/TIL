@@ -3,6 +3,10 @@
 
 ### 学習内容
 - [AWS](/AWS)
+  - AWS概要
+  - VPC
+  - EC2
+  - Route53
 
 - [Java](/Java)
   - thymeleaf
