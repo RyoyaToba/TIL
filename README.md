@@ -17,6 +17,7 @@
 - Java
   - thymeleaf
      - [List内のMapの取り出し方](/Java/thymeleaf/List内のmapの取り出し方.md)
+     - [Selectで引数を渡すには](/Java/thymeleaf/Selectで引数を渡すには.md)
   - JUnit
      - [Junitの概要](/Java/Junit/Junitの概要.md)
      - [Mockito](/Java/Junit/Mockito.md)
