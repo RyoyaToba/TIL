@@ -11,6 +11,8 @@
   - S3
   - CloudFront
 
+- Book
+
 - Docker
   - Docker概要
 
