@@ -31,6 +31,7 @@
 - JavaScript
   - [チェックボックスにチェックを入れる](/JavaScript/チェックボックスにチェックを入れる.md) 
   - [linear-gradient、四捨五入の仕方](/JavaScript/linear-gradient.md) 
+  - [特定の数字のBackgroundColorを指定する](/JavaScript/特定の数字にBackgroundColorを設定したい.md)
 
 - SQL
   - [HAVING句](/SQL/HAVING句.md)　
