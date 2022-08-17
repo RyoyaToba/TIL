@@ -9,6 +9,7 @@
   - Route53
   - RDS
   - S3
+  - CloudFront
 
 - Docker
   - Docker概要
