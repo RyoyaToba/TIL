@@ -7,6 +7,8 @@
   - VPC
   - EC2
   - Route53
+  - RDS
+  - S3
 
 - Docker
   - Docker概要
