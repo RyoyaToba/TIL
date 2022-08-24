@@ -17,6 +17,16 @@
   - Docker概要
 
 - Java
+  
+  - Java文法
+     - 文字の位置の取得（String.indexOf()）
+     - 文字を抜き出す(String.substring())
+     - 特定の文字の前に文字を挿入する(subString.insert())
+     - 特定の文字を含んでいるか判定したい（String.contains()）
+     - 文字の置き換え（String.replace()）
+     - 数値から文字列への変換（String.valueOf()）
+     - 文字列から数値への変換（Integer.parseInt()）
+     
   - thymeleaf
      - [List内のMapの取り出し方](/Java/thymeleaf/List内のmapの取り出し方.md)
      - [Selectで引数を渡すには](/Java/thymeleaf/Selectで引数を渡すには.md)
@@ -33,6 +43,8 @@
   
   - JPA
      - [JPAとは](/Java/JPA/JPAとは.md)
+  
+  - JSOUP
   
   - MyBatis
      - [MyBatisとは](/Java/MyBatis/MyBatisとは.md)
