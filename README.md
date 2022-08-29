@@ -84,8 +84,17 @@
 
 **参考**
 - Udemy
+   - AWS:ゼロから実践するAmazon Web Services(山浦 清透)
+   - WebAPI開発入門:Spring BootとOpenAPIで始めるスキーマ駆動開発（poco-tech at Udemy）
    - 令和４年秋版：現役講師が教える【応用情報技術者試験　午前版】講座（石田　宏実）
    - 令和４年秋版：現役講師が教える【応用情報技術者試験　午後版】講座（石田　宏実）
 - 書籍
+   - JUnit実践入門(技術評論社)
+   - Spring徹底入門（SHOEISHA）
+   - 達人に学ぶDB設計徹底指南書（SHOEISHA）
+   - 達人に学ぶSQL徹底指南書（SHOEISHA）
    - 応用情報技術者合格教本（技術評論社）
-   
+- Webサイト
+  - [SQLBolt](https://sqlbolt.com/)
+- Youtube
+  - [Docker超入門講座 合併版　ゼロから実践する４時間のフルコース(山浦 清透)](https://www.youtube.com/watch?v=lZD1MIHwMBY&t=4540s&ab_channel=%E3%81%A0%E3%82%8C%E3%81%A7%E3%82%82%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%2F%E5%B1%B1%E6%B5%A6%E6%B8%85%E9%80%8F)
