@@ -38,7 +38,6 @@
   - JUnit
      - [Junitの概要](/Java/Junit/Junitの概要.md)
      - [Mockito](/Java/Junit/Mockito.md)
-     - [TDD(テスト駆動開発)](/Java/Junit/TDD（テスト駆動開発）.md)
      - [カバレッジ](/Java/Junit/カバレッジ.md)
   
   - JPA
@@ -78,6 +77,10 @@
   - 9.システム開発技術
   - 10.マネジメント
   - 11.ストラテジー
+
+- 開発
+  - TDD
+  - スキーマ駆動開発
 
 **参考**
 - Udemy
