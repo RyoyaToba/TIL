@@ -17,14 +17,17 @@
 
 ### Java
   
-  - Java文法
-     - [文字の位置の取得（String.indexOf()）](/Java/Java文法/文字の位置を取得.md)
-     - [文字を抜き出す(String.substring())](/Java/Java文法/文字を抜き出す.md)
-     - [特定の文字の前に文字を挿入する(subString.insert())](/Java/Java文法/特定の文字の前に文字を挿入する.md)
-     - [特定の文字を含んでいるか判定したい（String.contains()）](/Java/Java文法/特定の文字を含んでいるか判定.md)
-     - [文字の置き換え（String.replace()）](/Java/Java文法/文字の位置を取得.md)
-     - [数値から文字列への変換（String.valueOf()）](/Java/Java文法/文字の位置を取得.md)
-     - [文字列から数値への変換（Integer.parseInt()）](/Java/Java文法/文字の位置を取得.md)
+  - Java API
+     - String
+        - [文字の位置の取得（String.indexOf()）](/Java/Java文法/文字の位置を取得.md)
+        - [文字を抜き出す(String.substring())](/Java/Java文法/文字を抜き出す.md)
+        - [特定の文字の前に文字を挿入する(subString.insert())](/Java/Java文法/特定の文字の前に文字を挿入する.md)
+        - [特定の文字を含んでいるか判定したい（String.contains()）](/Java/Java文法/特定の文字を含んでいるか判定.md)
+        - [文字の置き換え（String.replace()）](/Java/Java文法/文字の位置を取得.md)
+        - [数値から文字列への変換（String.valueOf()）](/Java/Java文法/文字の位置を取得.md)
+     - List
+     - Integer
+        - [文字列から数値への変換（Integer.parseInt()）](/Java/Java文法/文字の位置を取得.md)
   
   - Spring   
     
