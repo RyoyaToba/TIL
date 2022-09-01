@@ -26,30 +26,36 @@
      - [文字の置き換え（String.replace()）](/Java/Java文法/文字の位置を取得.md)
      - [数値から文字列への変換（String.valueOf()）](/Java/Java文法/文字の位置を取得.md)
      - [文字列から数値への変換（Integer.parseInt()）](/Java/Java文法/文字の位置を取得.md)
-     
-  - thymeleaf
-     - [List内のMapの取り出し方](/Java/thymeleaf/List内のmapの取り出し方.md)
-     - [Selectで引数を渡すには](/Java/thymeleaf/Selectで引数を渡すには.md)
-     - [th:if_存在しない時は表示させない（エラー回避）](/Java/thymeleaf/存在しない時は表示させない.md)
-     - [引数を渡すリンク](/Java/thymeleaf/数を渡すリンク.md)
-     - [td要素にリンクを貼りたい](/Java/thymeleaf/td要素にはリンクは貼れないぞ.md)
-     - [Formから値を受け取るときのHTML側の書き方](/Java/thymeleaf/Formから値を受け取るときのHTML側の書き方.md)
+  
+  - Spring   
+    
+    - thymeleaf
+      - [List内のMapの取り出し方](/Java/thymeleaf/List内のmapの取り出し方.md)
+      - [Selectで引数を渡すには](/Java/thymeleaf/Selectで引数を渡すには.md)
+      - [th:if_存在しない時は表示させない（エラー回避）](/Java/thymeleaf/存在しない時は表示させない.md)
+      - [引数を渡すリンク](/Java/thymeleaf/数を渡すリンク.md)
+      - [td要素にリンクを貼りたい](/Java/thymeleaf/td要素にはリンクは貼れないぞ.md)
+      - [Formから値を受け取るときのHTML側の書き方](/Java/thymeleaf/Formから値を受け取るときのHTML側の書き方.md)
+    
+    - JPA
+      - [JPAとは](/Java/JPA/JPAとは.md)
+    
+    - MyBatis
+      - [MyBatisとは](/Java/MyBatis/MyBatisとは.md)
+      - [動的SQL](/Java/MyBatis/動的SQL.md)
+      - [高度なマッピング](/Java/MyBatis/高度なマッピング.md)
+
   
   - JUnit
      - [Junitの概要](/Java/Junit/Junitの概要.md)
      - [Mockito](/Java/Junit/Mockito.md)
      - [カバレッジ](/Java/Junit/カバレッジ.md)
-  
-  - JPA
-     - [JPAとは](/Java/JPA/JPAとは.md)
-  
+     
   - JSOUP
   
-  - MyBatis
-     - [MyBatisとは](/Java/MyBatis/MyBatisとは.md)
-     - [動的SQL](/Java/MyBatis/動的SQL.md)
-     - [高度なマッピング](/Java/MyBatis/高度なマッピング.md)
-
+  - Lombok
+  
+ 
 - JavaScript
   - [チェックボックスにチェックを入れる](/JavaScript/チェックボックスにチェックを入れる.md) 
   - [linear-gradient、四捨五入の仕方](/JavaScript/linear-gradient.md) 
