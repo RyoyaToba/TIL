@@ -42,6 +42,7 @@ public class sampleDTO {
 Lombok使用後
 
 ```Java
+@Value // このアノテーションをつけることでコンストラクタやゲッターが自動生成される
 public class sampleDTO {
     String content;
     LocalDateTime timestamp;
