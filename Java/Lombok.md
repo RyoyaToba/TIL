@@ -48,3 +48,6 @@ public class sampleDTO {
     LocalDateTime timestamp;
 }
 ```
+
+Lombokのアノテーションに関しては色々あるようで、[紹介している方](https://penguinlabo.hatenablog.com/entry/java/lombok/list)がわかりやすかったのでリンク。
+今回自分が使っているValueではなくとも、Getterの自動生成はあるようだ。
