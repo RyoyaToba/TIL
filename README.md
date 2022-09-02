@@ -16,15 +16,15 @@
   - Docker概要
 
 ### Java
-  
+ 
   - Java API
      - String
-       - [文字の位置を取得](/Java/Java API/String/文字の位置を取得.md)
-       - [文字を抜き出す](/Java/Java API/String/文字を抜き出す.md)
-       - [特定の文字を含んでいるか判定](/Java/Java API/String/特定の文字を含んでいるか判定.md)
+        - 文字の位置を取得
+        - 文字を抜き出す
+        - 特定の文字を含んでいるか判定
      
      - StringBuilder
-      - 特定の文字の前に挿入する(/Java/Java API/StringBuilder/特定の文字の前に挿入する.md)
+        - 特定の文字の前に挿入する(/Java/Java API/StringBuilder/特定の文字の前に挿入する.md)
      
      - Stream
      
