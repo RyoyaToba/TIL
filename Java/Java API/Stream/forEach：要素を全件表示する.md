@@ -61,3 +61,5 @@ raceId = 202101010102 raceDay = 6月12日(土) raceNumber = 札幌02R raceName =
 raceId = 202101010103 raceDay = 6月12日(土) raceNumber = 札幌03R raceName = 3歳未勝利 raceDetail = ダ1000m field = 馬場:良
 raceId = 202101010104 raceDay = 6月12日(土) raceNumber = 札幌04R raceName = 3歳未勝利 raceDetail = 芝2000m field = 馬場:良
 ```
+
+[参考](https://nompor.com/2022/05/29/post-7191/)
