@@ -1,4 +1,4 @@
-　## forEach
+## forEach
 
 forEachメソッドによってリスト内の要素を全件表示することができる。
 
