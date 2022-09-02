@@ -2,8 +2,7 @@
 
 forEachメソッドによってリスト内の要素を全件表示することができる。
 
-
-＜前提 RaceInfoクラスの定義＞
+### 前提 RaceInfoクラスの定義
 
 ```Java
 public class RaceInfo {
@@ -44,7 +43,7 @@ public class RaceInfo {
 
 }
 ```
-
+### forEach使用時
 
 ```Java
 public class Stream{
@@ -54,6 +53,7 @@ public class Stream{
    }
 }
 ``` 
+### 出力結果
 
 ```console
 raceId = 202101010101 raceDay = 6月12日(土) raceNumber = 札幌01R raceName = 3歳未勝利 raceDetail = 芝1200m field = 馬場:良
