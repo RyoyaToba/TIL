@@ -28,6 +28,8 @@
      - List
      - Integer
         - [文字列から数値への変換（Integer.parseInt()）](/Java/Java文法/文字の位置を取得.md)
+     - Stream
+     
   
   - Spring   
     
