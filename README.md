@@ -27,6 +27,7 @@
         - 特定の文字の前に挿入する(/Java/Java API/StringBuilder/特定の文字の前に挿入する.md)
      
      - Stream
+        - 要素の全件取得：forEach
      
   
   - Spring   
