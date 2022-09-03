@@ -12,27 +12,34 @@
 
 ### Book
 
+
 ### Docker
+
   - Docker概要
 
 ### Java
  
   - Java API
+  
      - String
+     
         - 文字の位置を取得
         - 文字を抜き出す
         - 特定の文字を含んでいるか判定
      
      - StringBuilder
+     
         - 特定の文字の前に挿入する(/Java/Java API/StringBuilder/特定の文字の前に挿入する.md)
      
      - Stream
+     
         - 要素の全件取得：forEach
      
   
   - Spring   
     
     - thymeleaf
+    
       - [List内のMapの取り出し方](/Java/thymeleaf/List内のmapの取り出し方.md)
       - [Selectで引数を渡すには](/Java/thymeleaf/Selectで引数を渡すには.md)
       - [th:if_存在しない時は表示させない（エラー回避）](/Java/thymeleaf/存在しない時は表示させない.md)
@@ -41,9 +48,11 @@
       - [Formから値を受け取るときのHTML側の書き方](/Java/thymeleaf/Formから値を受け取るときのHTML側の書き方.md)
     
     - JPA
+    
       - [JPAとは](/Java/JPA/JPAとは.md)
     
     - MyBatis
+    
       - [MyBatisとは](/Java/MyBatis/MyBatisとは.md)
       - [動的SQL](/Java/MyBatis/動的SQL.md)
       - [高度なマッピング](/Java/MyBatis/高度なマッピング.md)
@@ -77,6 +86,7 @@
   - [markdown](/Git/markdown.md)　
 
 ### 応用情報試験
+
   - [基礎理論](/応用情報技術者試験/基礎理論.md)
   - アルゴリズムとプログラミング
   - ハードウェアとコンピュータ構成要素
