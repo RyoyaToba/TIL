@@ -14,6 +14,7 @@ public class RamService {
 
   @Autowired
   private RamRepository ramRepository;
+  
 	public List<Ram> findAllRams() {
 		return ramRepository.findAll();
 	}
@@ -22,6 +23,12 @@ public class RamService {
  上記のクラスをテストしようとする場合、Serviceクラスの成功or不成功は、中で呼び出されている他クラスのメソッドに依存すべきではない。
  ましてや、中で呼び出されるメソッドが未完成の状態でも、該当クラスをテストしたい場合もある。
  そこで、呼び出されるクラスをMockとして置き換えて、テスト対象クラスのみにテストを注力させるためにMockを使用する
+ 
+ 
+ ## 上記でのポイント
+ 
+ RamServiceでfindAllRamsというメソッドにおいて、「ramRepository.findAll()呼ばれるかどうか」はramRepositoryクラスに依存すべきではない。
+ 
  
  ### 3. Mock化の方法について
  
