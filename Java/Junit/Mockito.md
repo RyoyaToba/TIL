@@ -30,7 +30,7 @@ public class RamService {
 @SpringBootTest
 class RamServiceTest {
 
-        @Mock
+	@Mock
 	private RamRepository ramRepository;
 
 	@InjectMocks
