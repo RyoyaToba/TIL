@@ -48,6 +48,7 @@ class RamServiceTest {
 	@Test
 	void findAllRamsでramRepositoryのfindAllメソッドが呼ばれる() throws Exception {
 		ramservice.findAllRams();
+		// verifyメソッドは、該当のメソッドがtimes(引数)の引数回呼ばれたかを確認する
 		verify(ramRepository, times(1)).findAll();
 	}
 }
