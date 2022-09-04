@@ -39,10 +39,10 @@ public class RamService {
 @SpringBootTest
 class RamServiceTest {
 
-	@Mock
+	@Mock // ramRepositoryは未完成です。けどMock化して値だけ返すようにしたい
 	private RamRepository ramRepository;
 
-	@InjectMocks
+	@InjectMocks // Mockを注入したい方（呼び出したい方）
 	private RamService ramservice;
 
 	@Test
