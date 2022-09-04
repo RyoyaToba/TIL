@@ -29,6 +29,8 @@ public class RamService {
  
  RamServiceでfindAllRamsというメソッドにおいて、「ramRepository.findAll()呼ばれるかどうか」はramRepositoryクラスに依存すべきではない。
  
+ → Repositoryが完成していなくてもServiceクラスが存在することもあるよね？ってこと
+ 
  
  ### 3. Mock化の方法について
  
