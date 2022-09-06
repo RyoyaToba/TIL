@@ -52,6 +52,7 @@ public<RaceInfo> filterSample(){
     .filter(e -> e.raceDetail.contains("芝")) // filterによる絞り込み
     .forEach(System.out::println); // 全件出力
 }
+```
 
 ```コンソール
 raceId = 202101010101 raceDay = 6月12日(土) raceNumber = 札幌01R raceName = 3歳未勝利 raceDetail = 芝1200m field = 馬場:良
