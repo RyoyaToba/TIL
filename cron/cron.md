@@ -11,5 +11,39 @@ crontabコマンドはスケジュールの追加や変更、削除が可能で�
 
 > cronは定期的に繰り返しコマンドを実行する場合に用いるもので、ある特定の日時に一度だけ実行したい場合はcronではなくatコマンドを使用する。
 
-https://e-words.jp/w/cron.html
+[IT用語辞典 e-word cron](https://e-words.jp/w/cron.html)
+
+
+## 具体的なcronの使い方
+
+[【cron入門】　プログラムを自動実行できるCrontab（クーロン）とは？(せお丸のプログラマー養成講座)](https://www.youtube.com/watch?v=KLeT4KCzy6M&ab_channel=%E3%81%9B%E3%81%8A%E4%B8%B8%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC%E9%A4%8A%E6%88%90%E8%AC%9B%E5%BA%A7)
+
+cronはLinuxやMacの環境であれば、標準搭載されている（Windowsであればタスクスケジューラ）。
+
+ターミナルを開き、コマンドで操作していく。
+
+**編集（設定）**
+
+crontab -e
+
+```ターミナル
+crontab -e
+// viが起動する
+
+* 7 * * 4 /var/alert.php
+
+// 分　時　日　月　曜日
+```
+
+```php
+// 詳細は違うと思いますが、これでメールが送れるプログラムになっていると仮定
+<?
+mail('sample@xxx.com', 'アラート', '今日はゴミの日です');>
+```
+
+**閲覧**
+
+クーロンの中身を閲覧することができる
+
+crontab -l
 
