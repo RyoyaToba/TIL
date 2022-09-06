@@ -42,11 +42,21 @@ public class RaceInfo {
 }
 ```
 
+mapメソッドを使って出力内容を編集する。今回はraceNumberを全件出力する。
 
+```Java
+public static void mapSample(){
+    List<RaceInfo> raceInfo = RaceInfo.raceInfoList();
+    raceInfo.stream()
+       .map(e -> e.raceNumber)
+       .forEach(System.out::println);
+}
+```
 
-
-
-
-
-
+```console
+札幌01R
+札幌02R
+札幌03R
+札幌04R
+```
 
