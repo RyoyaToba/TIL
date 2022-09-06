@@ -54,6 +54,6 @@ public<RaceInfo> filterSample(){
 }
 
 ```コンソール
-
-
+raceId = 202101010101 raceDay = 6月12日(土) raceNumber = 札幌01R raceName = 3歳未勝利 raceDetail = 芝1200m field = 馬場:良
+raceId = 202101010104 raceDay = 6月12日(土) raceNumber = 札幌04R raceName = 3歳未勝利 raceDetail = 芝2000m field = 馬場:良
 ```
