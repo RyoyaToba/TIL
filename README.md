@@ -33,6 +33,8 @@
      - Stream
      
         - 要素の全件取得：forEach
+        - 特定要素の絞り込み： filter
+        - 要素を別の要素に変換する： map
      
   
   - Spring   
