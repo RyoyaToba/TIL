@@ -1,11 +1,8 @@
 ## Dockerとは
 
+![Docker概要](https://github.com/RyoyaToba/TIL/blob/main/documents/architecture.svg)
+
 [参考 Youtube動画](https://www.youtube.com/watch?v=lZD1MIHwMBY&ab_channel=%E3%81%A0%E3%82%8C%E3%81%A7%E3%82%82%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%2F%E5%B1%B1%E6%B5%A6%E6%B8%85%E9%80%8F)
-
-
-
-
-
 
 アプリを簡単に開発、デプロイできる技術。環境構築が容易。テスト環境も本番環境も簡単に用意できる。
 
