@@ -28,7 +28,7 @@
      
      - StringBuilder
      
-        - 特定の文字の前に挿入する
+        - [特定の文字の前に挿入する](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/StringBuilder/%E7%89%B9%E5%AE%9A%E3%81%AE%E6%96%87%E5%AD%97%E3%81%AE%E5%89%8D%E3%81%AB%E6%8C%BF%E5%85%A5%E3%81%99%E3%82%8B.md)
      
      - Stream
      
