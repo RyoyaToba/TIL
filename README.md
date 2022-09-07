@@ -13,7 +13,7 @@
 ## Docker
 
   - [Docker基礎](Docker/Docker基礎.md)
-  - [Docker Image](Docker/Docker Image.md)
+  - [Docker Image](https://github.com/RyoyaToba/TIL/blob/main/Docker/Docker%20Image.md)
 
 ## Java
  
