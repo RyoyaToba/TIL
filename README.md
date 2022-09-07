@@ -71,8 +71,10 @@
   - Jsoup
   
   - Lombok
+    - [Lombok](Java/Lombok.md)
   
   - ラムダ式
+    - [ラムダ式](Java/ラムダ式.md)
    
 ## JavaScript
   
