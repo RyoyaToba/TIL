@@ -54,9 +54,9 @@
     
     - MyBatis
     
-      - [MyBatisとは](/Java/MyBatis/MyBatisとは.md)
-      - [動的SQL](/Java/MyBatis/動的SQL.md)
-      - [高度なマッピング](/Java/MyBatis/高度なマッピング.md)
+      - [MyBatisとは](Java/Spring/MyBatis/MyBatisとは.md)
+      - [動的SQL](Java/Spring/MyBatis/動的SQL.md)
+      - [高度なマッピング](Java/Spring/MyBatis/高度なマッピング.md)
     
     - Spring Batch
 
