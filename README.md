@@ -57,6 +57,8 @@
       - [MyBatisとは](/Java/MyBatis/MyBatisとは.md)
       - [動的SQL](/Java/MyBatis/動的SQL.md)
       - [高度なマッピング](/Java/MyBatis/高度なマッピング.md)
+    
+    - Spring Batch
 
   
   - JUnit
@@ -64,9 +66,13 @@
      - [Mockito](/Java/Junit/Mockito.md)
      - [カバレッジ](/Java/Junit/カバレッジ.md)
      
-  - JSOUP
+  - Jsoup
   
   - Lombok
+  
+  - ラムダ式
+  
+  - 
   
  
 ## JavaScript
