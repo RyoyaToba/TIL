@@ -1,6 +1,6 @@
-## 学習記録
+学習記録
 
-### AWS
+## AWS
   - AWS概要
   - VPC
   - EC2
@@ -9,14 +9,14 @@
   - S3
   - CloudFront
 
-### Book
+## Book
 
 
-### Docker
+## Docker
 
   - Docker概要
 
-### Java
+## Java
  
   - Java API
   
@@ -69,24 +69,24 @@
   - Lombok
   
  
-### JavaScript
+## JavaScript
   
   - [チェックボックスにチェックを入れる](/JavaScript/チェックボックスにチェックを入れる.md) 
   - [linear-gradient、四捨五入の仕方](/JavaScript/linear-gradient.md) 
   - [特定の数字のBackgroundColorを指定する](/JavaScript/特定の数字にBackgroundColorを設定したい.md)
 
-### Linux
+## Linux
 
 
-### SQL
+## SQL
   
-  - [HAVING句](/SQL/HAVING句.md)　
+  - [HAVING](/SQL/HAVING句.md)　
   - [SQLBolt_tutorial](/SQL/SQLBolt_tutorial.md)
 
-### Git
+## Git
   - [markdown](/Git/markdown.md)　
 
-### 応用情報試験
+## 応用情報試験
 
   - [基礎理論](/応用情報技術者試験/基礎理論.md)
   - アルゴリズムとプログラミング
@@ -100,12 +100,12 @@
   - [マネジメント](/応用情報技術者試験/マネジメント.md)
   - ストラテジー
 
-### 開発
+## 開発
   
   - TDD
   - スキーマ駆動開発
 
-### 参考
+## 参考
 
 - Udemy
    - AWS:ゼロから実践するAmazon Web Services(山浦 清透)
