@@ -32,9 +32,9 @@
      
      - Stream
      
-        - [要素の全件取得：forEach](/Java/JavaAPI/Stream/forEach:要素の全件取得.md)
-        - [特定要素の絞り込み：filter](/Java/JavaAPI/Stream/filter:特定要素の絞り込み.md)
-        - [要素を別の要素に変換する：map](/Java/JavaAPI/Stream/map:要素を別の要素に変換する.md)
+        - [要素の全件取得：forEach](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/Stream/forEach%EF%BC%9A%E8%A6%81%E7%B4%A0%E3%82%92%E5%85%A8%E4%BB%B6%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B.md)
+        - [特定要素の絞り込み：filter](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/Stream/filter%20:%20%E7%89%B9%E5%AE%9A%E8%A6%81%E7%B4%A0%E3%81%AE%E7%B5%9E%E3%82%8A%E8%BE%BC%E3%81%BF.md)
+        - [要素を別の要素に変換する：map](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/Stream/map%20:%20%E8%A6%81%E7%B4%A0%E3%82%92%E5%88%A5%E3%81%AE%E8%A6%81%E7%B4%A0%E3%81%AB%E5%A4%89%E6%8F%9B%E3%81%99%E3%82%8B.md)
 
 
      
