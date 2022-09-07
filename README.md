@@ -35,6 +35,8 @@
         - [要素の全件取得：forEach](/Java/Java API/Stream/for Each: 要素の全件取得.md)
         - [特定要素の絞り込み：filter](/Java/Java API/Stream/filter: 特定要素の絞り込み.md)
         - [要素を別の要素に変換する：map](/Java/Java API/Stream/map: 要素を別の要素に変換する.md)
+        - [要素の全件取得：forEach](/Java/Java API/Stream/for Each: 要素の全件取得.md)
+
      
   
   - Spring   
