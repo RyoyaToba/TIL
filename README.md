@@ -9,8 +9,6 @@
   - [S3](AWS/S3.md)
   - [CloudFront](AWS/CloudFront.md)
 
-## Book
-
 
 ## Docker
 
