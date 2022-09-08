@@ -93,3 +93,30 @@ task buildSpringServer(type: org.openapitools.generator.gradle.plugin.tasks.Gene
 
 設定後、スキーマからSpringのコードが自動生成される。
 
+## Gradleタスクの依存関係を設定する
+
+Java compileをした時に、先にSpringコードが自動生成されるように依存関係を設定する。
+
+```gradle
+compileJava.dependsOn tasks.buildSpringServer
+```
+
+## 生成したコードをインポートできるように設定する
+
+現在の状態では、自動で生成したコードをインポートして利用できない。そのため、gradleに設定を追加する
+
+```gradle
+sourceSets.main.java.srcDir "$build/spring/src/main/java"
+```
+
+## 起動に必要なライブラリを追加する
+
+```gradle
+  implementation 'org.springframework.boot:spring-boot-starter-validation'
+  compileOnly 'io.swagger:swagger-codegen-generators:1.6.5'
+```
+
+
+
+
+
