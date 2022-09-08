@@ -54,6 +54,26 @@ build.gradleにpluginsを記述する。
 
 ```gradle
 plugins{
-
+  id 'org.springframework.boot' version '2.7.3'
+  id 'java'
+  id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+  id 'org.openapi.generator' version "5.3.0"
 }
 ```
+
+## OpenAPI Generator　を使ってスキーマからAPIドキュメントを生成する
+
+[OpenAPI Generator](https://openapi-generator.tech/docs/generators/)
+
+```gradle
+task buildApiDoc(type: org.openapitools.generator.gradle.plugin.tasks.GenerateTask){
+   generatorName = "html2"
+   inputSpec = "$rootDir/src/main/resources/api-schema.yaml".toString()
+   outputDir = "$buildDir/apidoc/".toString()
+}
+```
+
+buildAPIdocを実行すると、APIドキュメントを生成することができる。
+
+## OpenAPI Generatorを使ってスキーマからSpringのコードを生成する
+
