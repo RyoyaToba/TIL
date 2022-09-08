@@ -75,5 +75,24 @@ task buildApiDoc(type: org.openapitools.generator.gradle.plugin.tasks.GenerateTa
 
 buildAPIdocを実行すると、APIドキュメントを生成することができる。
 
+！[APIドキュメント](documents/Library-API.png)
+
 ## OpenAPI Generatorを使ってスキーマからSpringのコードを生成する
+
+```gradle
+task buildSpringServer(type: org.openapitools.generator.gradle.plugin.tasks.GenerateTask){
+    generatorName = "spring"
+    inputSpec = "$rootDir/src/main/resources/api-schema.yaml".toString()
+    outputDir = "$buildDir/spring/".toString()
+    apiPackage = "com.example.libraryapi.controller"
+    modelPackage = "com.example.libraryapi.model"
+    configOptions = [
+            interfaceOnly: "true"
+    ]
+}
+```
+
+
+
+
 
