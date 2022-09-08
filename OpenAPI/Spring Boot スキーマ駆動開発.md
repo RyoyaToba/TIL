@@ -2,10 +2,11 @@
 
 参考
 
-Web API開発入門：SpringBootとOpenAPIで始めるスキーマ駆動開発（poco-tech at Udemy）
+Web API開発入門：SpringBootとOpenAPIで始めるスキーマ駆動開発（poco-tech at Udemy）様の動画を視聴しながらまとめ。
 
+![スキーマ駆動開発の全体像](https://github.com/RyoyaToba/TIL/blob/main/documents/openapi-schema-driven1.png)
 
-
+https://moneyforward.com/engineers_blog/2021/05/28/openapi-schema-driven/
 
 
 ## Spring initializerからプロジェクトを生成する
@@ -45,4 +46,14 @@ paths:
 
 >必須 APIで利用可能なパスと操作。
 
-## 
+## OpenAPI Generator Gradle Pluginを導入する
+
+[OpenAPI Generator](https://github.com/OpenAPITools/openapi-generator)はさまざまな言語とフレームワークに対応したクライアントサイド、サーバーサイドのコードを生成してくれる。
+
+build.gradleにpluginsを記述する。
+
+```gradle
+plugins{
+
+}
+```
