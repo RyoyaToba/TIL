@@ -20,3 +20,11 @@ GET| / {path} / : id|詳細取得
 PUT| / {path} / : id|更新
 DELETE| / {path} / : id|削除
 
+## HTTPメソッドの冪等性と安全性
+
+method| 冪等性 | 安全性
+----|----|----
+GET|Y|Y
+PUT|Y|Y
+DELETE|Y|N
+POST|N|N
