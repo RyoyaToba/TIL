@@ -28,3 +28,81 @@ GET|Y|Y
 PUT|Y|Y
 DELETE|Y|N
 POST|N|N
+
+## リクエスト設計
+
+**パスパラメータ**
+
+/tasks/**999**
+
+**クエリパラメータ**
+
+/tasks?**title=bug**
+
+リソースを一一意に特定できるかを考える。
+
+**リクエストボディ**
+
+{ title: "hoge" }
+
+## レスポンス設計
+
+**２xx**
+
+Success
+
+200
+
+OK
+
+201
+
+Created
+
+204
+
+No Content
+
+**3xx**
+
+Redirection
+
+**4xx**
+
+Client Error
+
+400
+
+Bad Request
+
+404
+
+Not Found
+
+**5xx**
+
+Server Error
+
+500
+
+Internal Server Error
+
+## タスク管理APIを例にしたAPI設計
+
+### タスク作成
+
+#### Request
+
+- POST /tasks
+  - body : 作成するタスクのJSON（e.g.{title: "hoge"}）
+  
+#### response
+ 
+ - 201
+
+    - header(location): 作成されたリソースのURI
+    - body: 作成されたタスクのJSON（e.g.{id: 1, title: "hoge"}） 
+
+ - 400
+    - Bad Request
+ 
