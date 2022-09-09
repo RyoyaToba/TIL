@@ -37,7 +37,10 @@
         - [要素をCollect要素に変換する: collect](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/Stream/collect%20:%20%E8%A6%81%E7%B4%A0%E3%82%92Collect%E8%A6%81%E7%B4%A0%E3%81%AB%E5%A4%89%E6%8F%9B%E3%81%99%E3%82%8B.md)
         - [重複を削除する: distinct](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/Stream/distinct:%20%E8%A6%81%E7%B4%A0%E3%81%AE%E9%87%8D%E8%A4%87%E9%99%A4%E5%8E%BB.md)
 
-
+     - List
+        
+        -[要素の順番を調べる: indexOf](https://github.com/RyoyaToba/TIL/new/main/Java/Java%20API/List)
+    
      
   
   - Spring   
