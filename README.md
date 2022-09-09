@@ -67,7 +67,7 @@
       - [高度なマッピング](Java/Spring/MyBatis/高度なマッピング.md)
     
     - Spring Batch
-
+      - [Spring Batch](https://github.com/RyoyaToba/TIL/blob/main/Java/Spring/Spring%20Batch/Spring%20Batch.md)
   
   - JUnit
      - [Junitの概要](/Java/Junit/Junitの概要.md)
