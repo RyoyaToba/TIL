@@ -39,7 +39,8 @@
 
      - List
         
-        -[要素の順番を調べる: indexOf](https://github.com/RyoyaToba/TIL/new/main/Java/Java%20API/List)
+        - [要素の順番を調べる: indexOf](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/List/List.indexOf:%20%E7%89%B9%E5%AE%9A%E8%A6%81%E7%B4%A0%E3%81%AE%E5%A0%B4%E6%89%80%E3%82%92%E8%AA%BF%E3%81%B9%E3%82%8B.md)
+        - [要素を直接代入する: of]
     
      
   
