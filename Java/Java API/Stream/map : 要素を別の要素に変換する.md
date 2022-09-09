@@ -2,7 +2,7 @@
 
 mapメソッドを使用すると要素の変換を実行できる。
 
-### 前提　RaceInfoクラスの定義
+## 前提　RaceInfoクラスの定義
 
 ```Java
 public class RaceInfo {
@@ -59,4 +59,18 @@ public static void mapSample(){
 札幌03R
 札幌04R
 ```
+この例では、raceInfoだったeをraceNumberに変換している。
+
+## 例２
+
+```Java
+Elements elements = document.select(".area");
+List<String> prefectureList = elements.stream()
+            .map(e -> e.text())
+            .collect(Collectors.toList());
+```
+element要素をtextメソッドで、Stringに変更している、Jsoupを使用した時の例。
+
+
+
 
