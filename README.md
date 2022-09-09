@@ -90,6 +90,8 @@
 ## OpenAPI
 
   - [APIとは](OpenAPI/APIとは.md)
+  - [API設計について](OpenAPI/API設計について.md)
+  - [Spring Bootスキーマ駆動開発]()
 
 
 ## SQL
