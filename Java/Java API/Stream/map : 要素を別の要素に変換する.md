@@ -83,11 +83,11 @@ element要素をtextメソッドで、Stringに変更している、Jsoupを使�
 public List<RaceResult> raceResultInYear(String name) {
 	List<RaceResult> raceResultList = raceResultRepository.findByName(name);
 	List<RaceResult> raceResultListInYear = raceResultList.stream()
-											.map(e -> {
-                                                e.setYear(e.getRaceId.substring(0,4))
-                                                return e;
-                                            })
-											.collect(Collectors.toList());
+						.map(e -> {
+                                                	e.setYear(e.getRaceId.substring(0,4))
+                                                	return e;
+                                            	})
+						.collect(Collectors.toList());
 return raceResultListInYear;
 }
 ```
@@ -98,8 +98,8 @@ return raceResultListInYear;
 public List<RaceResult> raceResultInYear(String name) {
 	List<RaceResult> raceResultList = raceResultRepository.findByName(name);
 	List<RaceResult> raceResultListInYear = raceResultList.stream()
-											.map(e -> raceResultSetYear(e))
-											.collect(Collectors.toList());
+						.map(e -> raceResultSetYear(e))
+						.collect(Collectors.toList());
 	return raceResultListInYear;
 }
 
