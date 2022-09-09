@@ -1,5 +1,3 @@
-学習記録
-
 ## AWS
   - [AWS概要](AWS/AWS概要.md)
   - [VPC](AWS/VPC.md)
