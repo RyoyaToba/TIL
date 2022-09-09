@@ -91,7 +91,7 @@
 
   - [APIとは](OpenAPI/APIとは.md)
   - [API設計について](OpenAPI/API設計について.md)
-  - [Spring Bootスキーマ駆動開発]()
+  - [Spring Bootスキーマ駆動開発](https://github.com/RyoyaToba/TIL/blob/main/OpenAPI/Spring%20Boot%20%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9E%E9%A7%86%E5%8B%95%E9%96%8B%E7%99%BA.md)
 
 
 ## SQL
