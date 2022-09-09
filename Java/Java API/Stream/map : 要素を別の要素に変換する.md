@@ -2,6 +2,8 @@
 
 mapメソッドを使用すると要素の変換を実行できる。
 
+## 例１
+
 ## 前提　RaceInfoクラスの定義
 
 ```Java
@@ -71,6 +73,40 @@ List<String> prefectureList = elements.stream()
 ```
 element要素をtextメソッドで、Stringに変更している、Jsoupを使用した時の例。
 
+## 例３
 
+要素の持つフィールドに値をセットして、要素を返したい時のmapの使い方。これは多用することになりそう！
+
+**リファクタリング前**
+
+```Java
+public List<RaceResult> raceResultInYear(String name) {
+	List<RaceResult> raceResultList = raceResultRepository.findByName(name);
+	List<RaceResult> raceResultListInYear = raceResultList.stream()
+											.map(e -> {
+                                                e.setYear(e.getRaceId.substring(0,4))
+                                                return e;
+                                            })
+											.collect(Collectors.toList());
+return raceResultListInYear;
+}
+```
+
+**リファクタリング後**
+
+```Java
+public List<RaceResult> raceResultInYear(String name) {
+	List<RaceResult> raceResultList = raceResultRepository.findByName(name);
+	List<RaceResult> raceResultListInYear = raceResultList.stream()
+											.map(e -> raceResultSetYear(e))
+											.collect(Collectors.toList());
+	return raceResultListInYear;
+}
+
+private RaceResult raceResultSetYear(RaceResult racwResult) {
+		racwResult.setYear(Integer.parseInt(racwResult.getRaceId().substring(0, 4)));
+		return racwResult;
+}
+```
 
 
