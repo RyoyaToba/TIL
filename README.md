@@ -114,7 +114,7 @@
   - [基本構文](/SQL/基本文法.md)
   - [集約関数](/SQL/集約関数.md)
   - [HAVING](/SQL/HAVING.md)
-  - [副問合せ](/SQL/副問合せ.md)
+  - [副問合わせ](/SQL/副問合わせ.md)
   - [SQLBolt_tutorial](/SQL/SQLBolt_tutorial.md)
   
 
