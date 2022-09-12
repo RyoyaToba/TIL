@@ -99,7 +99,7 @@
 
 ## SQL
   
-  - [HAVING](/SQL/HAVING句.md)　
+  - [HAVING](/SQL/HAVING.md)　
   - [SQLBolt_tutorial](/SQL/SQLBolt_tutorial.md)
 
 ## cron
