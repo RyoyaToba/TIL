@@ -278,7 +278,7 @@ public class UniversityService {
     }
 }
 ```
-Optional<T>に関しては、JavaAPIの方にもまとめておく。
+Optional<T>に関しては、JavaAPIの方にもまとめておく。　参考　[Optionalとは](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/Optional/Optional%E3%81%A8%E3%81%AF.md)
 
 StreamAPIの方にorElseThrowもまとめておく。
 
