@@ -116,7 +116,18 @@ sourceSets.main.java.srcDir "$build/spring/src/main/java"
   compileOnly 'io.swagger:swagger-codegen-generators:1.6.5'
 ```
 
+## 全体的な作成の流れ
 
+① スキーマを書く
+
+② スキーマからSpringコード（Interface）を作成する
+
+③　作成したSpringInterfaceのコードをOrverrideし、MVCモデルを実装していく（SpringInterfaceはいじらない）
+
+
+
+
+![スキーマ駆動開発のシーケンス図](https://user-images.githubusercontent.com/105257856/189841498-e155d99f-88cc-47b5-b66c-f9c7e2b5939f.jpg)
 
 
 
