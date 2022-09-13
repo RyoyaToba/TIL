@@ -22,3 +22,5 @@ Optional<HogeEntity> hogeOpt = service.find(id);
 hogeOpt.ifPresent(hoge -> hoge.getName()); 
 // hogeOptが存在している（nullでない）時のみ、カッコ内のラムダ式を実行する
 ```
+
+参考：　https://qiita.com/shindooo/items/815d651a72f568112910
