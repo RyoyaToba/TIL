@@ -48,6 +48,9 @@
         
         - [要素の順番を調べる: indexOf](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/List/List.indexOf:%20%E7%89%B9%E5%AE%9A%E8%A6%81%E7%B4%A0%E3%81%AE%E5%A0%B4%E6%89%80%E3%82%92%E8%AA%BF%E3%81%B9%E3%82%8B.md)
         - [要素を直接代入する: of](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/List/List.of:%20%E8%A6%81%E7%B4%A0%E3%82%92%E7%9B%B4%E6%8E%A5%E4%BB%A3%E5%85%A5%E3%81%99%E3%82%8B.md)
+        
+     - Optional
+        - [Optionalとは](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/Optional/Optional%E3%81%A8%E3%81%AF.md)
     
      
   
