@@ -84,7 +84,8 @@
      - [カバレッジ](/Java/Junit/カバレッジ.md)
      
   - Jsoup
-  
+     - [Jsoup基本](Java/Jsoup/Jsoup基本.md)
+     - [NetKeibaスクレイピング](Java/Jsoup/NetKeibaスクレイピング例.md)
   - Lombok
     - [Lombok](Java/Lombok.md)
   
