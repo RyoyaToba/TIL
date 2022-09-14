@@ -94,7 +94,7 @@
    
 ## JavaScript
   - jQuery
-    - [ajax](/JavaScript/jQuery/ajax.md)
+    - [Ajax](/JavaScript/jQuery/Ajax.md)
 
   - [チェックされた値を配列に格納する](/JavaScript/チェックされた値を配列に格納する.md)
   - [全てのチェックボックスにイベントを付与する](/JavaScript/全てのcheckboxにイベントを付与する.md)
