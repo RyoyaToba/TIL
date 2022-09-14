@@ -10,7 +10,24 @@ AjaxはJSで使うことが主流だったが、昨今はjQueryで記述する�
 
 ```JavaScript
 `use strict`
-
-
-
+$.ajax({
+			url: 'http://localhost:8080/search/count', //接続するURL
+			type: 'post', //接続形式
+			dataType: 'json', //受けとるデータ型
+			data: { // dataを記述　HTMLから取得した値をControllerに送る
+				name: nameText.value,
+				father: fatherText.value,
+				mother: motherText.value,
+				genderArray: genderArray.toString()
+			},
+			async: true
+		})
+			.done(function(data) { // 成功した時
+				document.getElementById('search-count').innerText = data.count + "件ヒットしました"
+				console.log("target")
+			})
+			.fail(function() { //失敗した時
+				console.log('fail')
+			})
+	}
 ```
