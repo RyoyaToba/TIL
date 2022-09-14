@@ -93,7 +93,11 @@
     - [ラムダ式](Java/ラムダ式.md)
    
 ## JavaScript
-  
+  - jQuery
+    - [ajax](/JavaScript/jQuery/ajax.md)
+
+  - [チェックされた値を配列に格納する](/JavaScript/チェックされた値を配列に格納する.md)
+  - [全てのチェックボックスにイベントを付与する](/JavaScript/全てのcheckboxにイベントを付与する.md)
   - [チェックボックスにチェックを入れる](/JavaScript/チェックボックスにチェックを入れる.md) 
   - [linear-gradient、四捨五入の仕方](/JavaScript/linear-gradient.md) 
   - [特定の数字のBackgroundColorを指定する](/JavaScript/特定の数字にBackgroundColorを設定したい.md)
