@@ -3,6 +3,9 @@
 > grepは検索対象のファイルから文字列を検索するLinuxコマンド
 > 正規表現とオプションを使用することで様々な条件で検索が行える。
 
+参考：https://tech-blog.rakus.co.jp/
+
+
 `grep [option] 検索文字列 対象ファイル`
 
 オプション|説明
@@ -35,7 +38,9 @@ Kagoshima
 Okinawa
 ```
 
-### yamaがつくものを検索
+### 通常の検索
+
+yamaがつくものを指定
 
 ```ターミナル
 grep 'yama' todohuken.rtf
@@ -46,7 +51,17 @@ Oakayama\
 
 大文字小文字は区別されるみたいです。
 
-### yamaとYamaがつくものを検索（OR検索）
+
+### AND検索
+
+```
+grep 'yama' todohuken.rtf | grep 'To'
+Toyama\
+```
+
+### OR検索
+
+正規表現の「|」を使って書く方法か、オプションの「e」を使って書く方法があるようです。
 
 ```
 grep -e 'yama' -e 'Yama' todohuken.rtf
@@ -58,5 +73,3 @@ Oakayama\
 Yamaguchi\
 ```
 
-
-参考：https://tech-blog.rakus.co.jp/
