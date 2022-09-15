@@ -19,10 +19,44 @@ C[数字]|マッチした行の前後[数字]行を表示
 h|出力する行の前にファイル名を付けないようにする
 n|頭にそのファイル内での行数を表示
 
+## grep活用例
 
+テスト用のファイルとして、都道府県がローマ字で記述されているファイルを用意する
 
+```txt
+Hokkaido
+Aomori
+Iwate
+Miyagi
+〜以下略〜
+Tottori
+Miyazaki
+Kagoshima
+Okinawa
+```
 
+### yamaがつくものを検索
 
+```ターミナル
+grep 'yama' todohuken.rtf
+Toyama\
+Wakayama\
+Oakayama\
+```
+
+大文字小文字は区別されるみたいです。
+
+### yamaとYamaがつくものを検索（OR検索）
+
+```
+grep -e 'yama' -e 'Yama' todohuken.rtf
+Yamagata\
+Yamanashi\
+Toyama\
+Wakayama\
+Oakayama\
+Yamaguchi\
+```
 
 
 参考：https://tech-blog.rakus.co.jp/
