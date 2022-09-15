@@ -117,6 +117,7 @@
   - [rm : 削除](Linux/rm.md)
   - [tar : ファイルの圧縮や展開](Linux/tar.md)
   - [touch : ファイルの作成やタイムスタンプ変更](Linux/touch.md)
+  - [tail : 最終行から指定した行数だけ表示させる](Linux/tail.md)
 ## OpenAPI
 
   - [APIとは](OpenAPI/APIとは.md)
