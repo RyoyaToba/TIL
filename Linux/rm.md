@@ -29,3 +29,5 @@ rm: sample: is a directory
 ls
 hito.rtf	hito2.txt	hito4.txt
 ```
+
+思わぬものを削除する危険性もあるので、慎重に行う作業です。
