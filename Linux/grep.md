@@ -24,29 +24,30 @@ n|頭にそのファイル内での行数を表示
 
 ## grep活用例
 
-テスト用のファイルとして、都道府県がローマ字で記述されているファイルを用意する
+テスト用のファイルを用意。
 
-```txt
-Hokkaido
-Aomori
-Iwate
-Miyagi
-〜以下略〜
-Tottori
-Miyazaki
-Kagoshima
-Okinawa
+```rtf
+Yamada
+Yamashita
+Ishikawa
+Tanaka
+Sato
+Fujita
+Kimura
+Sakamoto
+Ishida
+Kawaguchi
+Sakashita
 ```
 
 ### 通常の検索
 
-yamaがつくものを指定
+taがつくものを指定
 
 ```ターミナル
-grep 'yama' todohuken.rtf
-Toyama\
-Wakayama\
-Oakayama\
+Yamashita
+Fujita
+Sakashita
 ```
 
 大文字小文字は区別されるみたいです。
@@ -54,22 +55,48 @@ Oakayama\
 
 ### AND検索
 
+Fuとtaがつくものを指定
+
 ```
-grep 'yama' todohuken.rtf | grep 'To'
-Toyama\
+grep 'ta' hito.rtf | grep 'Fu'
+Fujita
 ```
 
 ### OR検索
 
-正規表現の「|」を使って書く方法か、オプションの「e」を使って書く方法があるようです。
+拡張正規表現の「|」を使って書く方法か、オプションの「e」を使って書く方法があるようです。
 
 ```
-grep -e 'yama' -e 'Yama' todohuken.rtf
-Yamagata\
-Yamanashi\
-Toyama\
-Wakayama\
-Oakayama\
-Yamaguchi\
+grep -e 'ta' -e 'wa' hito.rtf
+Yamashita
+Ishikawa
+Fujita
+Kawaguchi
+Sakashita
+```
+
+```
+grep -E 'ta|wa' hito.rtf
+Yamashita
+Ishikawa
+Fujita
+Kawaguchi
+Sakashita
+```
+
+## NOT検索
+
+taを含まないものを検索
+
+```
+grep -v 'ta' hito.rtf
+Yamada
+Ishikawa
+Tanaka
+Sato
+Kimura
+Sakamoto
+Ishida
+Kawaguchi
 ```
 
