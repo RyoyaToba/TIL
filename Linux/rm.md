@@ -25,7 +25,8 @@ hito.rtf	hito2.txt	hito4.txt	sample
 rm sample
 rm: sample: is a directory
 
-// rm -r sample
+// -r　オプションを付与して、ディレクトリの削除をおこなう
+rm -r sample
 ls
 hito.rtf	hito2.txt	hito4.txt
 ```
