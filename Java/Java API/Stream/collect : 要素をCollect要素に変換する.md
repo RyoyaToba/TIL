@@ -9,3 +9,7 @@ List<String> nameList = elements.stream() // Streamにする
                         .distinct() //重複除去（詳しくはdistinctへ）
                         .collect(Collectors.toList());　//Stream要素をList要素へ変換
 ```
+
+追記：Java16より、toList()でリストへ変換できるようになりました。
+
+`collect(Collectors.toList()) →　toList()`
