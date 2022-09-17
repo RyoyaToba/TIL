@@ -1,6 +1,6 @@
 ## INDEX
 
-- [AWS](AWS) 
+- [AWS] 
 - DataBae
 
 
