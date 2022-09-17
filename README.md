@@ -1,10 +1,7 @@
 ## INDEX
 
-- [AWS] 
-- DataBae
-
-
-
+* [AWS](#AWS)
+* [DataBase](#DataBase)
 
 
 ## AWS
