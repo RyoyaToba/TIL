@@ -1,3 +1,12 @@
+## INDEX
+
+- [AWS](AWS) 
+- DataBae
+
+
+
+
+
 ## AWS
   - [AWS概要](AWS/AWS概要.md)
   - [VPC](AWS/VPC.md)
