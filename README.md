@@ -46,13 +46,13 @@
   
      - String
      
-        - [文字の位置を取得](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/String/%E6%96%87%E5%AD%97%E3%81%AE%E4%BD%8D%E7%BD%AE%E3%82%92%E5%8F%96%E5%BE%97.md)
-        - [文字を抜き出す](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/String/%E6%96%87%E5%AD%97%E3%82%92%E6%8A%9C%E3%81%8D%E5%87%BA%E3%81%99.md)
-        - [特定の文字を含んでいるか判定](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/String/%E7%89%B9%E5%AE%9A%E3%81%AE%E6%96%87%E5%AD%97%E3%82%92%E5%90%AB%E3%82%93%E3%81%A7%E3%81%84%E3%82%8B%E3%81%8B%E5%88%A4%E5%AE%9A.md)
+        - [文字の位置を取得 : indexOf](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/String/%E6%96%87%E5%AD%97%E3%81%AE%E4%BD%8D%E7%BD%AE%E3%82%92%E5%8F%96%E5%BE%97.md)
+        - [文字を抜き出す : substring](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/String/%E6%96%87%E5%AD%97%E3%82%92%E6%8A%9C%E3%81%8D%E5%87%BA%E3%81%99.md)
+        - [特定の文字を含んでいるか判定 : contains](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/String/%E7%89%B9%E5%AE%9A%E3%81%AE%E6%96%87%E5%AD%97%E3%82%92%E5%90%AB%E3%82%93%E3%81%A7%E3%81%84%E3%82%8B%E3%81%8B%E5%88%A4%E5%AE%9A.md)
      
      - StringBuilder
      
-        - [特定の文字の前に挿入する](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/StringBuilder/%E7%89%B9%E5%AE%9A%E3%81%AE%E6%96%87%E5%AD%97%E3%81%AE%E5%89%8D%E3%81%AB%E6%8C%BF%E5%85%A5%E3%81%99%E3%82%8B.md)
+        - [特定の文字の前に挿入する : insert](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/StringBuilder/%E7%89%B9%E5%AE%9A%E3%81%AE%E6%96%87%E5%AD%97%E3%81%AE%E5%89%8D%E3%81%AB%E6%8C%BF%E5%85%A5%E3%81%99%E3%82%8B.md)
      
      - Stream
      
