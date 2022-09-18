@@ -28,7 +28,7 @@
 ## CSS
 
   - bootstrap
-       - [grid](CSS/Bootstrap/grid.md)
+       - [grid](CSS/BootStrap/grid.md)
        - [form](CSS/BootStrap/Form.md)
 
 ## DataBase
