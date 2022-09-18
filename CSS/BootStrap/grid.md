@@ -12,7 +12,7 @@ BootStrapの核と呼んでも良い要素。１列を１２個の要素に分�
 
 ## コード
 
-```
+```HTML
 <div class="row">
   <div class="raceDay col-3 mt-5 text-center">
     <a href="/horse/race/showRaceList/?&amp;placeNum=6&amp;raceDay=1%E6%9C%885%E6%97%A5(%E7%81%AB)&amp;year=2021">
