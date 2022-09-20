@@ -114,13 +114,16 @@
 ## JavaScript
   - jQuery
     - [Ajax](/JavaScript/jQuery/Ajax.md)
-
+  
   - [チェックされた値を配列に格納する](/JavaScript/チェックされた値を配列に格納する.md)
   - [全てのチェックボックスにイベントを付与する](/JavaScript/全てのcheckboxにイベントを付与する.md)
   - [チェックボックスにチェックを入れる](/JavaScript/チェックボックスにチェックを入れる.md) 
   - [linear-gradient、四捨五入の仕方](/JavaScript/linear-gradient.md) 
   - [特定の数字のBackgroundColorを指定する](/JavaScript/特定の数字にBackgroundColorを設定したい.md)
 
+  - [CORS](/JavaScript/CORS.md)
+  - [FetchAPI](/JavaScript/FetchAPI.md)
+  
 ## Linux
   - [cat : ファイルの中身を見る](Linux/cat.md)
   - [cd : カレントディレクトリの移動](Linux/cd.md)
