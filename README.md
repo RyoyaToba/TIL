@@ -71,8 +71,6 @@
      - Optional
         - [Optionalとは](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/Optional/Optional%E3%81%A8%E3%81%AF.md)
     
-     
-  
   - Spring   
     
     - thymeleaf
@@ -96,6 +94,10 @@
     
     - Spring Batch
       - [Spring Batch](https://github.com/RyoyaToba/TIL/blob/main/Java/Spring/Spring%20Batch/Spring%20Batch.md)
+  
+  - DesignPattern
+     - [factory](/Java/DesignPattern/factory.md)
+     - [factoryMethod](/Java/DesignPattern/factory.md)
   
   - JUnit
      - [Junitの概要](/Java/Junit/Junitの概要.md)
