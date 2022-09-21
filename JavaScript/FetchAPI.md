@@ -54,5 +54,9 @@ $.ajax({
 }
 ```
 
+## POST
+
+
+
 
 参考： [FetchAPI公式リファレンス](https://developer.mozilla.org/ja/docs/Web/API/Fetch_API)
