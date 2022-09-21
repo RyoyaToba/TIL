@@ -10,4 +10,24 @@
 > fetch() は資格情報の初期化オプションを (include に) 設定しない限り、オリジンをまたいだ Cookie を送信しません。
 
 
+## GET
+
+住所検索API zipcodaを用いて、GETメソッドをFetchAPIで実行する
+
+```JavaScript
+const searchAddressFetch = () => {
+
+ let zipcode = document.getElementById('zipcode');
+
+  const params = new URLSearchParams({ zipcode: zipcode.value });
+　　　　　
+  
+	fetch('https://zipcoda.net/api?' + params)　 // 第一引数に接続するURLを設定
+		.then(response => response.json())　　　　　　　　　　　　　 // Responseの形式をJSONに変換 
+		.then(data => console.log(data.items))   // dataの処理 
+
+	console.log("https://zipcoda.net/api?" + params)　 // 確認用
+}
+```
+
 参考： [FetchAPI公式リファレンス](https://developer.mozilla.org/ja/docs/Web/API/Fetch_API)
