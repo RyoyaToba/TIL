@@ -73,7 +73,7 @@
     
   - Spring   
     
-    - thymeleaf
+    - Thymeleaf
     
       - [List内のMapの取り出し方](/Java/thymeleaf/List内のmapの取り出し方.md)
       - [Selectで引数を渡すには](/Java/thymeleaf/Selectで引数を渡すには.md)
