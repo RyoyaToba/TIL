@@ -45,8 +45,6 @@ $.ajax({
   })
   .done(function(data) {
      console.log(data);
-     document.getElementById('prefecture').value = data.items[0].pref;
-     document.getElementById('city').value = data.items[0].address;
   })
   .fail(function(XMLHttpRequest) {
      console.log('XMLHttpRequest:' + XMLHttpRequest.status);
