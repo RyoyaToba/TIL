@@ -96,8 +96,7 @@
       - [Spring Batch](https://github.com/RyoyaToba/TIL/blob/main/Java/Spring/Spring%20Batch/Spring%20Batch.md)
   
   - DesignPattern
-     - [factory](/Java/DesignPattern/factory.md)
-     - [factoryMethod](/Java/DesignPattern/factory.md)
+     - FactoryMethod
   
   - JUnit
      - [Junitの概要](/Java/Junit/Junitの概要.md)
