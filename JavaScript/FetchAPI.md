@@ -54,6 +54,8 @@ $.ajax({
 
 ## POST
 
+検索件数取得APIをFetchAPIを用いて書き換える
+
 
 
 
