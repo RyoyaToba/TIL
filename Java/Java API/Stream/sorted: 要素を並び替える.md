@@ -78,12 +78,12 @@ StudentList.add(new Student(19, 20031101, "Sato"));
 StudentList.add(new Student(17, 20050326, "Ito"));
 StudentList.add(new Student(18, 20040610, "Kato"));
 StudentList.add(new Student(16, 20060514, "Goto"));
-StudentList.add(new Studnet(19, 20030628, "Saito"));
+StudentList.add(new Studt(19, 20030628, "Saito"));
 StudentList.add(new Student(16, 20060112, "Sasaki"));
 
 StudentList.stream()
     //年齢の降順かつ、誕生日の降順に並び替える。
-    .sorted(Comparator.comparing(Student::getAge).reversed()
+    .sorted(Comparator.comparing(Student::getAge).reversed()　// reversedを付けると降順、つけないと昇順になる
     .thenComparing(Comparator.comparing(Student::getBirthDay).reversed()))
     .collect(Collectors.toList())
     .forEach(System.out::println);
