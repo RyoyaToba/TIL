@@ -186,6 +186,8 @@
   - [touch : ファイルの作成やタイムスタンプ変更](Linux/touch.md)
   
   - [tail : 最終行から指定した行数だけ表示させる](Linux/tail.md)
+  
+  - [vi : viエディタを表示してファイルを編集する](Linux/vi.md)
 ## OpenAPI
 
   - [APIとは](OpenAPI/APIとは.md)
