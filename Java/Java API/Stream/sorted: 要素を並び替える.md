@@ -89,11 +89,17 @@ StudentList.stream()
     .forEach(System.out::println);
 ```
 
+実行結果
 
-
-
-
-
+```
+19:20031101:Sato
+19:20030628:Saito
+18:20040610:Kato
+17:20051029:Yamada
+17:20050326:Ito
+16:20060514:Goto
+16:20060112:Sasaki
+```
 
 ## 参考
 
