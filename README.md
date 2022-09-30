@@ -53,6 +53,14 @@
  
   - Java API
   
+     - Arrays
+        
+        - 配列のリスト化: asList
+      
+        - 辞書順の比較: compare
+        
+        - ２つの配列の要素の比較: mismatch
+        
      - Character
      
      - LocalDate
