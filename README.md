@@ -53,6 +53,10 @@
  
   - Java API
   
+     - Character
+     
+     - LocalDate
+  
      - String
      
         - [文字の位置を取得 : indexOf](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/String/%E6%96%87%E5%AD%97%E3%81%AE%E4%BD%8D%E7%BD%AE%E3%82%92%E5%8F%96%E5%BE%97.md)
