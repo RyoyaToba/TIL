@@ -62,6 +62,8 @@
         - [２つの配列の要素の比較: mismatch](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/Arrays/mismatch.md)
         
      - Character
+        
+        - [変数の種類判定シリーズ: isAny](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/Character/%E5%A4%89%E6%95%B0%E3%81%AE%E7%A8%AE%E9%A1%9E%E5%88%A4%E5%AE%9A%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA.md)
      
      - LocalDate
   
