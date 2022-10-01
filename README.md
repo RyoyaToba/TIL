@@ -66,6 +66,8 @@
         - [変数の種類判定シリーズ: isAny](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/Character/%E5%A4%89%E6%95%B0%E3%81%AE%E7%A8%AE%E9%A1%9E%E5%88%A4%E5%AE%9A%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA.md)
      
      - LocalDate
+     
+        - [特定の日付を入力する: of](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/LocalDate/of:%20%E7%89%B9%E5%AE%9A%E3%81%AE%E6%97%A5%E4%BB%98%E3%82%92%E5%85%A5%E5%8A%9B%E3%81%99%E3%82%8B.md)
   
      - String
      
