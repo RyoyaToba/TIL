@@ -59,7 +59,7 @@
       
         - [辞書順の比較: compare](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/Arrays/compare.md)
         
-        - ２つの配列の要素の比較: mismatch
+        - [２つの配列の要素の比較: mismatch](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/Arrays/mismatch.md)
         
      - Character
      
