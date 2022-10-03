@@ -1,4 +1,4 @@
-## 特定の文字を含むか判定をしたい
+## contains
 
 Stringのcontainsメソッドを用いる。結果はbooleanを返す。
 
@@ -8,7 +8,7 @@ class Test{
   public static void main(Streing[] args){
 
     String text = "Hello World";
-    System.out.print(text.contain(" ")); // true
+    System.out.print(text.contains(" ")); // true
   }
 }
 
