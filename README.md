@@ -252,6 +252,8 @@
   
   - [副問合わせ](/SQL/副問合わせ.md)
   
+  - [CASE式](/SQL/CASE式.md)
+  
   - [SQLBolt_tutorial](/SQL/SQLBolt_tutorial.md)
   
 
