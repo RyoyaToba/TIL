@@ -56,7 +56,7 @@
   
      - Arrays
         
-        - [配列のリスト化: asList](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/Arrays/asList.md)
+        - [配列のリスト化: asList](/Java/JavaAPI/Arrays/asList.md)
       
         - [辞書順の比較: compare](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/Arrays/compare.md)
         
