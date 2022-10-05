@@ -1,6 +1,6 @@
 ## add
 
-要素を追加するにはaddメソッドを使用する
+要素を追加するにはaddメソッドを使用する。要素は後ろに追加される。
 
 オブジェクトであれば、どんな型の集合でも扱える。
 
@@ -31,3 +31,11 @@ ArrayList<String> list = new ArrayList<String>();
 ArrayList<String> list = new ArrayList<>();
 ```
 
+## 順番を指定した追加
+
+addメソッドはオーバーロードされているので、第一引数に順番を指定して代入することが可能。
+
+```Java
+ArrayList<String> list = new ArrayList<>();
+list.add(0,"sample");
+```
