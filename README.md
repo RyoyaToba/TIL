@@ -98,7 +98,7 @@
         
         - [特定要素の絞り込み(filter)](/Java/JavaAPI/Stream/特定要素の絞り込み(filter).md)
         
-        - [要素を別の要素に変換する(map)](/Java/JavaAPI/Stream/要素を別の要素に変換する.md)
+        - [要素を別の要素に変換する(map)](/Java/JavaAPI/Stream/要素を別の要素に変換する(map).md)
         
         - [要素をCollection要素に変換する(collect)](/Java/JavaAPI/Stream/要素をCollection要素に変換する(collect).md)
         
