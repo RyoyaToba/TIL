@@ -71,10 +71,22 @@
         - [特定の日付を入力する: of](/Java/JavaAPI/LocalDate/特定の日付を入力するof.md)
         
      - String
-     
-        - [文字の位置を取得 : indexOf](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/String/%E6%96%87%E5%AD%97%E3%81%AE%E4%BD%8D%E7%BD%AE%E3%82%92%E5%8F%96%E5%BE%97.md)
-        - [文字を抜き出す : substring](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/String/%E6%96%87%E5%AD%97%E3%82%92%E6%8A%9C%E3%81%8D%E5%87%BA%E3%81%99.md)
-        - [特定の文字を含んでいるか判定 : contains](https://github.com/RyoyaToba/TIL/blob/main/Java/Java%20API/String/%E7%89%B9%E5%AE%9A%E3%81%AE%E6%96%87%E5%AD%97%E3%82%92%E5%90%AB%E3%82%93%E3%81%A7%E3%81%84%E3%82%8B%E3%81%8B%E5%88%A4%E5%AE%9A.md)
+        
+        - [文字が特定の文字で始まるか判定する(startWith)](/Java/JavaAPI/String/文字が特定の文字で始まるか判定する(startWith).md)
+        
+        - [文字が特定の文字で終わるか判定する(endWith)](/Java/JavaAPI/String/文字が特定の文字で終わるか判定する(endWith).md)
+        
+        - [文字の位置を取得(indexOf)](/Java/JavaAPI/String/文字の位置を取得(indexOf).md)
+        
+        - [文字の置き換え(replace)](/Java/JavaAPI/String/文字の置き換え(replace).md)
+        
+        - [文字を抜き出す(substring)](/Java/JavaAPI/String/文字を抜き出す(substring).md)
+        
+        - [文字連結(concat)](/Java/JavaAPI/String/文字連結(concat).md)
+        
+        - [特定の文字を含んでいるか判定(contains)](/Java/JavaAPI/String/特定の文字を含んでいるか判定(contains).md)
+        
+        - [特定の文字を１つ抜き出す(charAt)](/Java/JavaAPI/String/特定の文字を1つ抜き出す(charAt).md)
      
      - StringBuilder
      
