@@ -13,11 +13,37 @@
 
 ## Consumer
 
+Consumerインターフェイスは引数を受け取って消費（処理）する関数を定義するためのもの。
+
+例：Consumer型変数cに、String型の引数を受け取り、その値をHelloという文字列と連結して出力する
+
+```Java
+public static void main(String[] args){
+  Consumer<String> c = str -> {
+   System.out.println("Hello " + str);
+  }
+  c.accept("Java");
+} 
+```
+
 ## Supplier
+
+Supplierインターフェイスは引数を受け取らず、結果を戻すタイプの関数型インターフェイス。
+
+```Java
+public static void main(String[] args){
+  Supplier<String> s = () -> {
+    return "Hello, Lambda";
+  };
+  System.out.println(s.get());
+}
+```
 
 ## Predicate
 
 Predicateインターフェイスは、T型の型パラメータをうけとり、そのT型を受け取るtestメソッドにラムダ式を代入する。
+
+例：String型をパラメータとして与えたPredicate型変数を定義し、そのラムダ式を代入している
 
 ```Java
 public static void main(String[] args){
@@ -30,3 +56,13 @@ public static void main(String[] args){
 
 ## Function
 
+4つの関数型インターフェイスのうち、ジェネリクス型のパラメータを2つ受け取るのはFunctionだけ。型パラメータの1つ目は引数の型、2つ目は戻り値の型を表す。
+
+```Java
+public static void main(String[] args){
+  Function<Stirng, Integer> f = str -> {
+    return Integer.parseInt(str);
+  };
+  System.out.println(f.apply("100") * 2);
+}
+```
