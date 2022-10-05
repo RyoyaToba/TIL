@@ -1,4 +1,4 @@
-## 特定の文字の前に文字を挿入したい
+## insert
 
 ➀　StringをStringBuilderに変換
 
