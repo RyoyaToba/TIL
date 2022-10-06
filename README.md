@@ -52,23 +52,31 @@
 
 ## Java
  
-  - Java API
+  - JavaAPI
   
      - Arrays
         
-        - [配列のリスト化: asList](/Java/JavaAPI/Arrays/asList.md)
+        - [配列のリスト化(asList)](/Java/JavaAPI/Arrays/配列のリスト化(asList).md)
       
-        - [辞書順の比較: compare](/Java/JavaAPI/Arrays/compare.md)
+        - [辞書順の比較(compare)](/Java/JavaAPI/Arrays/辞書順の比較(compare).md)
         
-        - [２つの配列の要素の比較: mismatch](/Java/JavaAPI/Arrays/mismatch.md)
+        - [２つの配列の要素の比較(mismatch)](/Java/JavaAPI/Arrays/２つの配列の要素の比較(mismatch).md)
+        
+     - ArrayList
+        
+        - [要素の削除(remove)](/Java/JavaAPI/ArrayList/要素の削除(remove).md)
+        
+        - [要素を上書きする(set)](/Java/JavaAPI/ArrayList/要素を上書きする(set).md)
+        
+        - [要素を追加する(add)](/Java/JavaAPI/ArrayList/要素を追加する(add).md)
         
      - Character
         
-        - [変数の種類判定シリーズ: isAny](/Java/JavaAPI/Arrays/変数の種類判定シリーズisAny.md)
+        - [変数の種類判定シリーズ(isAny)](/Java/JavaAPI/Arrays/変数の種類判定シリーズisAny.md)
      
      - LocalDate
      
-        - [特定の日付を入力する: of](/Java/JavaAPI/LocalDate/特定の日付を入力するof.md)
+        - [特定の日付を入力する(of)](/Java/JavaAPI/LocalDate/特定の日付を入力するof.md)
         
      - String
         
