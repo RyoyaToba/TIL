@@ -72,11 +72,11 @@
         
      - Character
         
-        - [変数の種類判定シリーズ(isAny)](/Java/JavaAPI/Arrays/変数の種類判定シリーズisAny.md)
+        - [変数の種類判定シリーズ(isAny)](/Java/JavaAPI/Arrays/変数の種類判定シリーズ(isAny).md)
      
      - LocalDate
      
-        - [特定の日付を入力する(of)](/Java/JavaAPI/LocalDate/特定の日付を入力するof.md)
+        - [特定の日付を入力する(of)](/Java/JavaAPI/LocalDate/特定の日付を入力する(of).md)
         
      - String
         
