@@ -72,7 +72,7 @@
         
      - Character
         
-        - [変数の種類判定シリーズ(isAny)](/Java/JavaAPI/Arrays/変数の種類判定シリーズ(isAny).md)
+        - [変数の種類判定シリーズ(isAny)](/Java/JavaAPI/Character/変数の種類判定シリーズ(isAny).md)
      
      - LocalDate
      
