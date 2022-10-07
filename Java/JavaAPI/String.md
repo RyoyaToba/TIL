@@ -43,7 +43,7 @@ Stringの場合、同じインスタンス（同じ文字列）を宣言した�
 ```Java
 String hoge1 = "hoge";
 String hoge2 = "hoge";
-String hoge3 = new String();
+String hoge3 = new String("hoge");
 
 //　同じ文字列を入れているので参照が同じになる
 System.out.println(hoge1 == hoge2); // true
