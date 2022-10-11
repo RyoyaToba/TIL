@@ -56,11 +56,11 @@
   
      - Arrays
         
-        - [配列のリスト化(asList)](/Java/JavaAPI/Arrays/配列のリスト化(asList).md)
+        - [固定長のリストに変換する(asList)](/Java/JavaAPI/Arrays/固定長のリストに変換する(asList).md)
       
-        - [辞書順の比較(compare)](/Java/JavaAPI/Arrays/辞書順の比較(compare).md)
+        - [２つの配列を辞書順に並べて順番を比較する(compare)](/Java/JavaAPI/Arrays/２つの配列を辞書順に並べて順番を比較する(compare).md)
         
-        - [２つの配列の要素の比較(mismatch)](/Java/JavaAPI/Arrays/２つの配列の要素の比較(mismatch).md)
+        - [一致しない要素を調べる(mismatch)](/Java/JavaAPI/Arrays/一致しない要素を調べる(mismatch).md)
         
      - ArrayList
         
@@ -116,12 +116,15 @@
         
      - List
         
-        - [要素の順番を調べる(indexOf)](/Java/JavaAPI/List/要素の順番を調べる(indexOf).md)
+        - [特定要素の場所を調べる(indexOf)](/Java/JavaAPI/List/特定要素の場所を調べる(indexOf).md)
         
-        - [要素を直接代入する(of)](/Java/JavaAPI/List/要素を直接代入する(of).md)
+        - [要素を代入する(of)](/Java/JavaAPI/List/要素を代入する(of).md)
+        
+        - [要素を並び替える(sort)](/Java/JavaAPI/List/要素を並び替える(sort).md)
         
      - Optional
-        - [Optionalとは](/Java/JavaAPI/Optional/Optionalとは.md)
+     
+        - [Optional](/Java/JavaAPI/Optional/Optionalとは.md)
     
   - Spring   
     
@@ -252,6 +255,7 @@
   - [tail : 最終行から指定した行数だけ表示させる](Linux/tail.md)
   
   - [vi : viエディタを表示してファイルを編集する](Linux/vi.md)
+  
 ## OpenAPI
 
   - [APIとは](OpenAPI/APIとは.md)
