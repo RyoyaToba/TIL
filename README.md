@@ -78,6 +78,8 @@
      
         - [特定の日付を入力する(of)](/Java/JavaAPI/LocalDate/特定の日付を入力する(of).md)
         
+        - [現在の日付を生成する（now）](/Java/JavaAPI/LocalDate/現在の日付を生成する(now).md)
+        
      - String
         
         - [文字が特定の文字で始まるか判定する(startWith)](/Java/JavaAPI/String/文字が特定の文字で始まるか判定する(startWith).md)
