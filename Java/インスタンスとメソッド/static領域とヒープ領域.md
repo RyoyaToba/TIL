@@ -48,6 +48,34 @@ public class Main{
 ③ staticなメンバからstaticでないメンバへは、インスタンス経由でならアクセスが可能
 
 
+```Java
+public class Sample{
+  public void hello(){
+    System.out.println("hello");
+  }
+  
+  public static void goodMorning(){
+    System.out.println("goodMorning");
+  }
+}
+```
+
+```Java
+public class Main{
+  public static void main(String[] args){
+    
+    // ①　staticメンバからstaticでないメンバへアクセスはできない
+    Sample.hello(); // コンパイルエラー
+    
+    // staticメンバからstaticメンバへのアクセスは可能
+    Sample.goodMorning(); // goodMorning
+    
+    // ③ インスタンス経由でのアクセス
+    Sample sample = new Sample();
+    sample.hello(); // hello
+  }
+}
+```
 
 ## 参考
 
