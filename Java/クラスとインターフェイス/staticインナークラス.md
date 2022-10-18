@@ -88,3 +88,23 @@ for(Item item : items){
 }
 
 ```
+
+## staticインナークラスのアクセス制限
+
+staticインナークラスからエンクロージングクラスの非staticメンバにはアクセスできない。
+
+```Java
+public class Outer{
+  private String message = "Hello, Java";
+  static class Inner {
+    public void test(){
+      System.out.println(message); // コンパイルエラー
+    }
+  }
+}
+```
+ 
+
+
+
+
