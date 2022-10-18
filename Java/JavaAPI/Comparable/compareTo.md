@@ -30,7 +30,7 @@ public class Item implements Comparable<Item> {
 並び替えを実行するクラスでは、Collectionsクラスのsortメソッドを使って並び替えをしている。実行結果を確認すると、名前順に並び替えられていることが確認できる。
 
 ```Java
-package conp;
+package comp;
 
 import java.util.Arrays;
 import java.util.Collections;
