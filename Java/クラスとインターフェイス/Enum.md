@@ -43,7 +43,7 @@ public class Main{
 }
 ```
 
-## 
+## Enumにメソッドを定義する
 
 
 
