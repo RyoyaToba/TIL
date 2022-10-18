@@ -104,7 +104,29 @@ public class Outer{
 }
 ```
  
+## staticインナークラスの記述制限
+ 
+staticではないインナークラス内には、staticなメンバを定義することはできない。
+ 
+逆にstaticインナークラスには、どんなメンバでも定義することができる。
 
+```Java
+public class Outer{
+  
+  class Inner{
+    private static String message; // コンパイルエラー
+    public void test(){
+      System.out.println(message);
+    }
+  }
+}
+```
+
+
+ 
+ 
+ 
+ 
 
 
 
