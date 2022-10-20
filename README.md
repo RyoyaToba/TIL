@@ -201,24 +201,28 @@
      
      - [NetKeibaスクレイピング](Java/Jsoup/NetKeibaスクレイピング例.md)
   
-  - インスタンスとメソッド
+  - Java Silver
   
-     - コンストラクタ
+     - インスタンスとメソッド
+  
+        - コンストラクタ
      
-     - 可変長引数
+        - 可変長引数
   
-  - 継承
+     - 継承
   
-     - インターフェイス
+        - インターフェイス
      
-     - クラスの継承
+        - クラスの継承
      
-     - 抽象クラス
+        - 抽象クラス
   
+     - 配列
   
-  - 配列
+        - 配列 
   
-     - 配列 
+  - Java Gold
+  
   
   - Lombok
     
@@ -229,7 +233,9 @@
     - [ラムダ式](Java/ラムダ式.md)
    
 ## JavaScript
+
   - jQuery
+  
     - [Ajax](/JavaScript/jQuery/Ajax.md)
   
   - [チェックされた値を配列に格納する](/JavaScript/チェックされた値を配列に格納する.md)
@@ -247,6 +253,7 @@
   - [FetchAPI](/JavaScript/FetchAPI.md)
   
 ## Linux
+
   - [cat : ファイルの中身を見る](Linux/cat.md)
   
   - [cd : カレントディレクトリの移動](Linux/cd.md)
