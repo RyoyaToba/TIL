@@ -14,10 +14,9 @@ Threadを用いたマルチスレッド・プログラミングでは、Thread�
 スレッドプールは予め、複数個の空のスレッドを生成し、そのスレッドにタスクを与えて実行させる。このようにタスクが与えられるまで待機する空のスレッドと、タスクを実行するスレッドを分けることで
 前述の「スレッドの無駄遣い」の問題を解決する。
 
-スレッドプールを使ことで、効率的に並行処理を実現するのがExecutorフレームワークと呼ばれる一連のインターフェイスとクラス群である。このフレームワークは、java.util.concurrent.Executorを
-スーパーインターフェイスとした、次のようなインターフェイスで構成されている。
+スレッドプールを使ことで、効率的に並行処理を実現するのがExecutorフレームワークと呼ばれる一連のインターフェイスとクラス群である。このフレームワークは、`java.util.concurrent.Executor`をスーパーインターフェイスとした、次のようなインターフェイスで構成されている。
 
-具体的な使用方法としては、Executorのサブインターフェイスであるjava.util.concurrent.ExecutorService、もしくはjava.util.concurrent.ScheduledExecutorServiceを利用する。
+具体的な使用方法としては、Executorのサブインターフェイスである`java.util.concurrent.ExecutorService`、もしくは`java.util.concurrent.ScheduledExecutorService`を利用する。
 
 これらのサブインターフェイスの実装を取得するのがjava.util.concurrent.Executorsクラスである。このクラスは。ExecutorServiceインターフェイスを実現したインスタンスへの参照を戻すファクトリメソッドを用途別にいくつか持っている。
 
