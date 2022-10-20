@@ -18,11 +18,14 @@ Threadを用いたマルチスレッド・プログラミングでは、Thread�
 
 具体的な使用方法としては、Executorのサブインターフェイスである
 
-[`java.util.concurrent.ExecutorService`](ExecutorService)、
+[`java.util.concurrent.ExecutorService`](ExecutorService)
 
 もしくは
 
-[`java.util.concurrent.ScheduledExecutorService`](ScheduledExecutorService)を利用する。
+[`java.util.concurrent.ScheduledExecutorService`](ScheduledExecutorService)
 
-これらのサブインターフェイスの実装を取得するのがjava.util.concurrent.Executorsクラスである。このクラスは。ExecutorServiceインターフェイスを実現したインスタンスへの参照を戻すファクトリメソッドを用途別にいくつか持っている。
+を利用する。
+
+これらのサブインターフェイスの実装を取得するのがjava.util.concurrent.Executorsクラスである。
+このクラスは、ExecutorServiceインターフェイスを実現したインスタンスへの参照を戻すファクトリメソッドを用途別にいくつか持っている。
 
