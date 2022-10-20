@@ -19,3 +19,18 @@ public class Sample{
 }
 ```
 
+記述している内容は、[Threadクラスのサブクラスを定義する方法](Thread.md)と変わらないので、比較をしてみるといい。
+
+また、Runnableインターフェイスは、関数型インターフェイスなので、ラムダ式で書き替えることが可能であり、そちらの方が記述量が少なく可読性も増す。
+
+```Java
+public class Sample{
+  public static void main(String[] args){
+    Thread t = new Thread( () -> {
+        System.out.println("sub");
+    });
+    t.start();
+    System.out.println("main");
+  }
+}
+```
