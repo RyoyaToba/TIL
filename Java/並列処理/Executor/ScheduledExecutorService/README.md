@@ -1,2 +1,6 @@
 ## ScheduledExecutorService
 
+java.util.concurrent.ExecutorServiceを拡張したインターフェイスで、メソッドを定期的に実行するためのもの。
+
+ExecutorServiceでは、submitメソッドで渡された処理をすぐに実行してしまうため、タイミングを制御することはできない。それを行うためにはこのインターフェイスを利用する。
+
