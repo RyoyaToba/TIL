@@ -17,3 +17,7 @@ Threadを用いたマルチスレッド・プログラミングでは、Thread�
 スレッドプールを使ことで、効率的に並行処理を実現するのがExecutorフレームワークと呼ばれる一連のインターフェイスとクラス群である。このフレームワークは、java.util.concurrent.Executorを
 スーパーインターフェイスとした、次のようなインターフェイスで構成されている。
 
+具体的な使用方法としては、Executorのサブインターフェイスであるjava.util.concurrent.ExecutorService、もしくはjava.util.concurrent.ScheduledExecutorServiceを利用する。
+
+これらのサブインターフェイスの実装を取得するのがjava.util.concurrent.Executorsクラスである。このクラスは。ExecutorServiceインターフェイスを実現したインスタンスへの参照を戻すファクトリメソッドを用途別にいくつか持っている。
+
