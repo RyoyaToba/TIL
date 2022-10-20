@@ -2,12 +2,12 @@
 
 * 1つのスレッドをプールしておく
 
-[newSingleThreadExecutor](newSingleThreadExecutor)
+[newSingleThreadExecutor](newSingleThreadExecutor.md)
 
 * 複数のスレッドをプールしておく
 
-[newFixedThreadPool](newFixedThreadPool)
+[newFixedThreadPool](newFixedThreadPool.md)
 
 * 増減させるスレッドをプールしておく
 
-[newCachedThreadPool](newCachedThreadPool)
+[newCachedThreadPool](newCachedThreadPool.md)
