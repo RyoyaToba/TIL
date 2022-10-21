@@ -7,7 +7,9 @@
 ```Java
 public BinaryOperator<StringBuilder> combiner() {
   return (a, b) -> {
-    a.append(b);
+    a.append(",");
   }
+  a.append(b);
+  return a;
 }
 ```
