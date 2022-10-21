@@ -23,3 +23,26 @@ public class Test{
  }
 }
 ```
+
+以下のように、mapをflatMapに変更する。
+
+```Java
+public class Test{
+  public static void main(String[] args){
+    Optional<Integer> a = Optional.of(100);
+    
+    // flatMapはそのまま戻す
+    Optional<Integer> b = a.flatMap(price -> calc(price,3));
+    System.out.println(b.get());
+  }
+ 
+ // 戻り値がOptional<Integer>型
+ private static Optional<Integer> calc(int price, int qty){
+  if (qty < 0){
+    return Optional.empty();
+  }
+  return Optional.of(price * qty);
+ }
+}
+```
+
