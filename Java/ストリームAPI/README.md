@@ -1,3 +1,3 @@
 ## ストリームAPI
 
-各メソッドに関しては[JavaAPI](Java/JavaAPI/Stream)の方にまとめてあります。
+各メソッドに関しては[JavaAPI](../JavaAPI/Stream)の方にまとめてあります。
