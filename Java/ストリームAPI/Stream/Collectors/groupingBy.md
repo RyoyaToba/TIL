@@ -28,6 +28,36 @@ public class Department {
 }
 ```
 
+Employeeクラスの作成
+
+```Java
+public class Employee {
+    private String name;
+    private Department dept;
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", dept=" + dept +
+                '}';
+    }
+
+    public Employee(String name, Department dept) {
+        this.name = name;
+        this.dept = dept;
+    }
+
+    public String getName(){
+        return name;
+    }
+
+    public Department getDept(){
+        return dept;
+    }
+}
+```
+
 実行クラス（import省略）
 
 ```Java
