@@ -53,3 +53,25 @@ FileReaderのコンストラクタには、読み込みたいファイルのパ�
 そのため、コード例のようにint型引数iにreadメソッドの戻り値を代入し、**その値が-1でなければ繰り返し処理を継続する**という条件式のwhile文で先頭の文字から最後の文字までを読み込むことができる。
 
 読み込みが終わり、不要になったストリームは閉じなければいけないので、finnalyブロックでは必ずcloseメソッドを呼び出す。
+
+次のように、try-with-resources文を使うと、リソースの閉じ忘れを防止できる。
+
+```Java
+public class Sample{
+  public static void main(String[] args){
+    FileReader reader = null;
+    try(reader){
+      reader = new FileReader("data.txt");
+      int i = 0;
+      
+      while ((i = reader.read()) != -1){
+        char c = (char) i;
+        System.out.print(c);
+      }
+    }
+}     
+```
+
+
+
+
