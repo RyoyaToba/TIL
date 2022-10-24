@@ -23,6 +23,8 @@ Hello world!
 
 このコードを毎回実行すると、テキストファイルは上書きされる。続きに追記したい場合は、コンストラクタの第二引数にtrueを記述する。
 
+デフォルトはfalseで、falseは上書きモード。
+
 ```Java
 public class Sample{
   public static void main(String[] args) throws Exception{
