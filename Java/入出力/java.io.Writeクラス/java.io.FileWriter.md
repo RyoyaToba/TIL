@@ -9,12 +9,34 @@ public class Sample{
   public static void main(String[] args) throws Exception{
     FileWriter out = new FileWriter("output.txt");
     try(out){
-      out.write("Hello world");
+      out.write("Hello world!");
     }
   }
 }
 ```
 
+実行結果
 
+```console
+Hello world!
+```
 
+このコードを毎回実行すると、テキストファイルは上書きされる。続きに追記したい場合は、コンストラクタの第二引数にtrueを記述する。
+
+```Java
+public class Sample{
+  public static void main(String[] args) throws Exception{
+    FileWriter out = new FileWriter("output.txt", true);
+    try(out){
+      out.write("Hello world!");
+    }
+  }
+}
+```
+
+実行結果
+
+```console
+Hello world!Hello world!
+```
 
