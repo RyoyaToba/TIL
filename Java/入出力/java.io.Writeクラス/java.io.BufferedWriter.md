@@ -10,9 +10,15 @@ public class Sample{
     FileWriter out = new FileWriter("output.txt", true);
     BufferedWriter writer = new BufferWriter(out);
     try(writer){
-      writer.newLine(); // 改行コードを出力するための専用のメソッド
-      writer.write("Buffering output"); // ファイルに直接書き込むのではなく、バッファに書き込む。
-      writer.flush(); // flushメソッドによってバッファとファイルを同期させる
+    
+      // 改行コードを出力するための専用のメソッド
+      writer.newLine(); 
+      
+      // ファイルに直接書き込むのではなく、バッファに書き込む。
+      writer.write("Buffering output"); 
+      
+      // flushメソッドによってバッファとファイルを同期させる
+      writer.flush(); 
     }
   }
 }
