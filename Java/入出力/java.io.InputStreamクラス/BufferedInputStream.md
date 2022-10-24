@@ -22,7 +22,7 @@ public class Sample{
     
     try(bis; bos){
       byte[] data = null;
-      while((data = bis.readNByte(1024)).length != 0){
+      while((data = bis.readNBytes(1024)).length != 0){
         bos.write(data);
       }
       bos.flush();
