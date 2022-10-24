@@ -40,3 +40,29 @@ public class Sample{
 Hello world!Hello world!
 ```
 
+先述のように、trueを追記したコードを実行すると、前の文字につなげて記述される。
+
+改行をしたい場合はwriteメソッドに改行コードを記述する。
+
+```Java
+public class Sample{
+  public static void main(String[] args) throws Exception{
+    FileWriter out = new FileWriter("output.txt", true);
+    try(out){
+      out.write("\n");
+      out.write("Hello world!");
+    }
+  }
+}
+```
+
+実行結果
+
+```console
+Hello world!Hello world!
+Hello world!
+```
+
+
+
+
