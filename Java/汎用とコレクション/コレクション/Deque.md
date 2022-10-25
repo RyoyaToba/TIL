@@ -28,3 +28,4 @@ C
 A
 B
 ```
+![図形作成用スライド (4)](https://user-images.githubusercontent.com/105257856/197700337-80fde6f0-3a13-451a-8c49-610ccc0be25e.jpg)
