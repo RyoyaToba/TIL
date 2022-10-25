@@ -18,8 +18,11 @@ SQL文や専用の言語を組み合わせて処理手順を記述し、DBに保
 public class CallSample{
   public static void main(String[] args){
     try(Connection con = DBManager.createConnection()){
+      
+      // プロシージャの取得 
       String proc = "CALL UPDATE_ITEM(?,?)";
       
+      // 引数にプロシージャ名を渡す
       try(CallableStatement cs = con.prepareCall(proc)){
         cs.setString(1, "call procedure");
         cs.setInt(2,1);
@@ -31,4 +34,8 @@ public class CallSample{
   }
 }
 ```
+
+ストアド・プロシージャを呼び出すには、`java.sql.CallableStatement`インターフェイスを使う。CallableStatement型のオブジェクトは、prepareCallメソッドに、呼び出すストアド・プロシージャ名を
+渡して取得する。
+
 
