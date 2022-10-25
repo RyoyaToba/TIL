@@ -141,5 +141,23 @@ public class Sample{
 
 ## executeBatch
 
+このメソッドは、**1度に複数のSQL文を実行することができる**。
 
+上記3つのメソッドは、1度に1つのSQL文しか実行できなかったので、複数のSQL文を実行したい場合は、逐一呼び出すしかなかった。
+
+```Java
+var sql = "INSERT INTO item values(?,?)"
+try(PreparedStatement pstmt = con.prepareStatement(sql)){
+  
+  // 1人目
+  pstmt.setInt(1,4);
+  pstmt.setString(2, "hoge");
+  pstmt.executeUpdate();
+  
+  // 2人目
+  pstmt.set(1,5);
+  pstmt.setString(2, "boo");
+  pstmt.executeUpdate();
+}
+```
 
