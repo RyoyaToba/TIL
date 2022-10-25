@@ -25,3 +25,36 @@ A
 B
 C
 ```
+
+## Map.Entryインターフェース
+
+Map.Entryは、Mapインターフェイス内に定義されたインナーインターフェイスであり、Mapのためだけに利用することを想定したインターフェイス。
+
+キーと値のペアを管理するのが。Map.Entryインターフェース。
+
+```Java
+public class Sample{
+  public static void main(String[] args){
+    Map<String, Integer> map = new HashMapu<>();
+    map.put("ONE" ,1);
+    map.put("TWO", 2);
+    map.put("TREEE", 3);
+    
+    map.entrySet()
+       .stream()
+       .forEach((Map.Entry<String, Integer> entry) -> {
+        String key = entry.getKey();
+        Integer val = entry.getValue();
+        System.out.println(key + ":" + val);
+       })
+  }
+}
+```
+
+実行結果
+
+```console
+ONE:1
+TWO:2
+THREE:3
+```
