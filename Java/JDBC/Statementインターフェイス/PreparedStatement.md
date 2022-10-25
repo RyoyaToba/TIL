@@ -161,3 +161,46 @@ try(PreparedStatement pstmt = con.prepareStatement(sql)){
 }
 ```
 
+executeBatchメソッドを使用すると、複数のSQL文を登録しておき、一度に実行することが可能になる。
+
+```Java
+public class Main {
+
+  public static void main(String[] args) {
+
+    int[] ids = {3, 4, 5};
+    String[] names = {"micky", "Jone", "kalera"};
+    var sql = "INSERT INTO sample values(?,?)";
+
+    try (Connection con = DBManager.createConnection();
+        PreparedStatement pstmt = con.prepareStatement(sql)) {
+
+      for (int i = 0; i < ids.length; i++) {
+        pstmt.setInt(1, ids[i]);
+        pstmt.setString(2, names[i]);
+        pstmt.addBatch();
+      }
+
+      int[] results = pstmt.executeBatch();
+      System.out.println(Arrays.toString(results));
+
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
+  }
+}
+```
+
+実行結果
+
+```console
++------+--------+
+| id   | name   |
++------+--------+
+|    1 | jammy  |
+|    2 | antony |
+|    3 | micky  |
+|    4 | Jone   |
+|    5 | kalera |
++------+--------+
+```
