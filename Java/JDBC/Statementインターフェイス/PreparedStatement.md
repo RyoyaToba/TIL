@@ -1,6 +1,8 @@
 ## PreparedStatement
 
-**executeUpdateメソッド**は、データの挿入、更新、削除を行うためのメソッド。実行した結果の件数をint型で戻す。
+## executeUpdateメソッド
+
+データの挿入、更新、削除を行うためのメソッド。実行した結果の件数をint型で戻す。
 
 ```Java
 public class Main {
@@ -29,7 +31,9 @@ public class Main {
 +------+-------+
 ```
 
-**executeQuery**メソッドは、データの検索に使用される。検索結果のテーブルを戻す。
+## executeQueryメソッド
+
+データの検索に使用される。検索結果のテーブルを戻す。
 
 テーブル
 
@@ -83,7 +87,9 @@ jammy
 antony
 ```
 
-**execute**メソッドは、挿入、更新、削除、検索のいずれも行うことができるメソッド。executeUpdateとexecuteQueryの両方の機能を持つメソッドと解釈できる。
+## executeメソッド
+
+挿入、更新、削除、検索のいずれも行うことができるメソッド。executeUpdateとexecuteQueryの両方の機能を持つメソッドと解釈できる。
 
 基本的には
 
@@ -133,5 +139,7 @@ public class Sample{
 
 上記のように、どちらの場合も使えるメソッドであるが、SQLインジェクションの対策ができないので、実務では使われていない。
 
-executeBatch
+## executeBatch
+
+
 
