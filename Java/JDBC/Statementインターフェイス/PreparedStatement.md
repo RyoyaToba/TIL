@@ -74,7 +74,14 @@ public class Main {
 }
 ```
 
+実行結果
 
+```console
+1
+jammy
+2
+antony
+```
 
 execute
 
