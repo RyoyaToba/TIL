@@ -83,7 +83,53 @@ jammy
 antony
 ```
 
-execute
+**execute**メソッドは、挿入、更新、削除、検索のいずれも行うことができるメソッド。executeUpdateとexecuteQueryの両方の機能を持つメソッドと解釈できる。
+
+基本的には
+
+SQL文が挿入、更新、削除　 -->  executeUpdate
+
+SQL文が検索 --> executeQuery
+
+SQL文の種類が決まっていない　 -->  execute
+
+このメソッドは、実行結果が、**検索した結果を保持するResultSet型オブジェクト**かどうかをboolean型で戻す。
+
+そのため、戻り値がfalseであった場合は、検索ではなく挿入・更新・削除のいずれかであったことがわかる（ResultSetである表が戻っていない）。
+
+```Java
+public class Sample{
+  public static void main(String[] args){
+    try(Connection con = DBManager.createConnection;){
+      
+      try (PreparedStatement pstmt = con.prepareStatement(args[0])) {
+        
+        // もし、executeメソッドの結果がfalseであれば、getUpdateCountメソッドを用いて、結果の件数を取得する
+        if (ps.execute() == false){
+          System.out.println(ps.getUpdateCount());
+          return;
+        }
+        
+        // trueであれば、ResultSetを取り出し
+        ResultSet rs = ps.getResultSet();
+        
+        // メタデータを取得
+        ResultSetMetadata meta = rs.getMetaData();
+        
+        // カラムサイズを取得
+        int colSize = meta.getColumnCount();
+        while(rs.next()){
+          for(int i = 0; i <= colSize(); i++){
+            System.out.println(rs.getString(i));
+          }
+        }
+      } catch (Exception e){
+        throw new Exception(e);
+      }
+    }
+  }
+}
+```
 
 executeBatch
 
