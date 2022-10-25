@@ -16,3 +16,4 @@ public class Sample{
   }
 }
 ```
+![図形作成用スライド (5)](https://user-images.githubusercontent.com/105257856/197700806-9e71306f-cc18-4ecf-bdab-a9ee0d398be4.jpg)
