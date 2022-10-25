@@ -1,6 +1,6 @@
 ## PreparedStatement
 
-**executeUpdateメソッド**は、データの挿入、更新、削除を行うためのメソッド
+**executeUpdateメソッド**は、データの挿入、更新、削除を行うためのメソッド。実行した結果の件数をint型で戻す。
 
 ```Java
 var sql = "insert into item values(?,?)";
