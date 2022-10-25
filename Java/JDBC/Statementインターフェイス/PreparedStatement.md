@@ -31,12 +31,50 @@ public class Main {
 
 **executeQuery**メソッドは、データの検索に使用される。検索結果のテーブルを戻す。
 
-```Java
+テーブル
 
-
-
-
+```console
++------+--------+
+| id   | name   |
++------+--------+
+|    1 | jammy  |
+|    2 | antony |
++------+--------+
 ```
+
+```Java
+public class Main {
+
+  public static void main(String[] args) {
+
+    var sql = "SELECT * FROM sample";
+
+    try (Connection con = DBManager.createConnection();
+        PreparedStatement pstmt = con.prepareStatement(sql)) {
+      
+      // ResultSetにexecuteQueryメソッドで取得した表を格納する
+      ResultSet rs = pstmt.executeQuery();
+      
+      // nextメソッドにより、行単位で値を指定する
+      while (rs.next()) {
+        
+        // getIntメソッドでは、列番号1(id)を指定している
+        System.out.println(rs.getInt(1));
+        
+        // getStringメソッドでは、カラム名nameの列を指定している
+        System.out.println(rs.getString("name"));
+      }
+
+    } catch (Exception e) {
+
+      e.printStackTrace();
+
+    }
+  }
+}
+```
+
+
 
 execute
 
