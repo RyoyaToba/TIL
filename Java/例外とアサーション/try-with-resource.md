@@ -37,6 +37,27 @@ try (Connection con = DBManager.createConnection()) {
 
 try-with-resourceの目的は例外処理ではなく、リソースの閉じ忘れを防ぐことが目的なので、catchブロックとfinallyブロックは省略することが可能。
 
+try-with-resource文で処理できるのは、`java.lang.AutoCloseableインターフェイス`、もしくは、`java.io.Closeableインターフェイス`を実装したクラス。
 
+**AutoCloseableを実装したクラス**
 
+```Java
+public class SampleResource implements AutoCloseable {
+  @Override
+  public void close() throws Exception {
+    System.out.println("close");
+  }
+}
+```
+
+**Closeableを実装したクラス**
+
+```Java
+public class SampleResource implements Closeable {
+  @Override
+  public void close() throws IOException {
+    System.out.println("close");
+  }
+}
+```
 
