@@ -50,6 +50,8 @@ try (Connection con = //) {
 }
 ```
 
+try-with-resourceの目的は例外処理ではなく、リソースの閉じ忘れを防ぐことが目的なので、catchブロックとfinallyブロックは省略することが可能。
+
 
 
 
