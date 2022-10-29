@@ -300,7 +300,25 @@
           - [orElseThrow](Java/ストリームAPI/Optional/orElseThrow.md)
         
         - [Stream](Java/ストリームAPI/Stream)
-     
+          
+          - [Collector]
+          
+            - [accumulator](Java/ストリームAPI/Stream/accumulator.md)
+            
+            - [characteristics](Java/ストリームAPI/Stream/characteristics.md)
+            
+            - [combiner](Java/ストリームAPI/Stream/combiner.md)
+            
+            - [finisher](Java/ストリームAPI/Stream/finisher.md)
+            
+            - [supplier](Java/ストリームAPI/Stream/supplier.md)
+          
+          - [Collectors]
+          
+          - [中間操作]
+          
+          - [終端操作]
+
      - 入出力
      
      - JDBC
