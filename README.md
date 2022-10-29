@@ -280,6 +280,24 @@
         - [Optional](Java/ストリームAPI/Optional)
         
           - [flatMap](Java/ストリームAPI/Optional/flatMap.md)
+          
+          - [get](Java/ストリームAPI/Optional/get.md)
+          
+          - [ifPresent](Java/ストリームAPI/Optional/ifPresent.md)
+
+          - [ifPresentOrElse](Java/ストリームAPI/Optional/ifPresentOrElse.md)
+          
+          - [isEmpty](Java/ストリームAPI/Optional/isEmpty.md)
+          
+          - [isPresent](Java/ストリームAPI/Optional/isPresent.md)
+          
+          - [map](Java/ストリームAPI/Optional/map.md)
+          
+          - [orElse](Java/ストリームAPI/Optional/orElse.md)
+          
+          - [orElseGet](Java/ストリームAPI/Optional/orElseGet.md)
+          
+          - [orElseThrow](Java/ストリームAPI/Optional/orElseThrow.md)
         
         - [Stream](Java/ストリームAPI/Stream)
      
