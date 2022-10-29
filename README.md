@@ -301,7 +301,7 @@
         
         - [Stream](Java/ストリームAPI/Stream)
           
-          - [Collector]
+          - Collector
           
             - [accumulator](Java/ストリームAPI/Stream/accumulator.md)
             
@@ -313,11 +313,11 @@
             
             - [supplier](Java/ストリームAPI/Stream/supplier.md)
           
-          - [Collectors]
+          - Collectors
           
-          - [中間操作]
+          - 中間操作
           
-          - [終端操作]
+          - 終端操作
 
      - 入出力
      
