@@ -5,6 +5,50 @@ try-with-resourceはJavaSE7で導入された機能で、プログラム中で�
 リソースは、使う時に開き、使い終わったら閉じなければならない。リソースを使い終わったら閉じるのは必須ではなく、任意であるため、プログラマーが書き忘れる可能性がある。
 それを防止するためにJavaSE7からtry-with-resourceが導入された。
 
+**try-with-resource以前の文**
+
+```Java
+try {
+  
+  // hoge
+
+} catch (Exception e){
+ 
+  // hoge
+
+} finally {
+
+  try {
+    if (con != null) {
+    
+      con.close();
+    
+    }
+  
+  } catch {
+    
+    throw new Exception(e);
+  
+  }
+  
+}
+```
+
+このコードのように、finallyブロックでリソースを閉じるために、try-catchを入れ子に書かないといけなかった。
+
+**try-with-resource**
+
+```Java
+try (Connection con = //) {
+  
+  // hoge
+
+} catch (Exception e){
+ 
+  // hoge
+
+}
+```
 
 
 
