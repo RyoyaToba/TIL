@@ -9,28 +9,17 @@ try-with-resourceはJavaSE7で導入された機能で、プログラム中で�
 
 ```Java
 try {
-  
   // hoge
-
 } catch (Exception e){
- 
   // hoge
-
 } finally {
-
   try {
     if (con != null) {
-    
       con.close();
-    
     }
-  
   } catch {
-    
     throw new Exception(e);
-  
   }
-  
 }
 ```
 
@@ -40,13 +29,9 @@ try {
 
 ```Java
 try (Connection con = //) {
-  
   // hoge
-
 } catch (Exception e){
- 
   // hoge
-
 }
 ```
 
