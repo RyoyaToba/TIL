@@ -28,7 +28,7 @@ try {
 **try-with-resource**
 
 ```Java
-try (Connection con = //) {
+try (Connection con = DBManager.createConnection()) {
   // hoge
 } catch (Exception e){
   // hoge
