@@ -34,6 +34,6 @@
 
 ## 参考
 
-* Java SE11 Silver 問題集　（Impress）
+* Java SE11 Silver 問題集（Impress）
 
-* Java SE11 Gold 問題集　（Impress）
+* Java SE11 Gold 問題集（Impress）
