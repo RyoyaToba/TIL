@@ -66,6 +66,12 @@
   - [Docker Image](https://github.com/RyoyaToba/TIL/blob/main/Docker/Docker%20Image.md)
 
 ## Java
+
+  - BuildTool
+  
+  - DesingnPattern
+  
+  - JavaEE
  
   - JavaAPI
 
@@ -268,6 +274,18 @@
         - [Thread](Java/並列処理/Thread.md)
         
         - [Runnable](Java/並列処理/Runnable.md)
+     
+     - ストリームAPI
+     
+        - [Optional](Java/ストリームAPI/Optional)
+        
+          - [flatMap](Java/ストリームAPI/Optional/flatMap.md)
+        
+        - [Stream](Java/ストリームAPI/Stream)
+     
+     - 入出力
+     
+     - JDBC
      
      - アノテーション
   
