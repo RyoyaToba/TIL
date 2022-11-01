@@ -44,6 +44,12 @@ Localクラスのコンストラクタは、引数に言語コード、国コー
 
 Locale locale = new Locale("es", "ES", "Traditional_WIN");
 
+コンストラクタの場合、不正な値を設定してインスタンス化してもコンパイルエラーにならない。
 
+例
+
+```Java
+Locale locale = 
+```
 
 
