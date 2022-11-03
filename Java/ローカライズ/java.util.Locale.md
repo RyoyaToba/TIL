@@ -79,6 +79,20 @@ Locale locale = Locale.CANADA_FRENCH;
 JavaSE7以降では、さらに詳細な情報を扱えるようにインターネット技打つの標準化団体「IETF」が定めるIETF言語タグに対応するようになった。そのIETF言語タグでは、細かなロケール情報を表現するために、
 次のような情報（下位タグ）の組み合わせで構成されており、これらをハイフンで区切って1つの文字列として表す。
 
+* language(言語)
+* script(文字体系)
+* region(地域)
+* variant(派生)
+* extension(拡張)
+* privateuse(私用)
+
+ロケール情報をIETF言語タグで表現するには、次のコード例のようにLocaleクラスのインスタンスを生成し、そのインスタンスの`toLanguageTagメソッド`を使用する。
+
+```Java
+Locale locale = new Locale("ja", "JP", "JP");
+System.out.println(locale.toLanguageTag());
+```
+
 
 
 
