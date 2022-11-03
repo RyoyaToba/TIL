@@ -62,6 +62,12 @@ static Locale.CANADA|en|CA|カナダのロケール情報
 static Locale.CANADA_FRANCH|fr|FR|カナダのロケール情報
 static Locale.UK|en|GB|イギリスのロケール情報
 
+次のようにロケール変数を使用することで、言語コードや国コードの間違いを防ぐことができる。
+
+```Java
+Locale locale = Locale.CANADA_FRENCH;
+```
+
 
 
 
