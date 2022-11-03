@@ -93,6 +93,12 @@ Locale locale = new Locale("ja", "JP", "JP");
 System.out.println(locale.toLanguageTag());
 ```
 
+実行結果
+
+```console
+ja-JP-u-ca-japanese-x-lvariant-JP
+```
+
 
 
 
