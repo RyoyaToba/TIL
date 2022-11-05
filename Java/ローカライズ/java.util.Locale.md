@@ -99,6 +99,14 @@ System.out.println(locale.toLanguageTag());
 ja-JP-u-ca-japanese-x-lvariant-JP
 ```
 
+### ファクトリメソッド
+
+IETF言語タグを用いてLocaleクラスのインスタンスを生成するには、次のコード例のようにLocaleクラスのforLanguageTagメソッドを使用する。
+
+```Java
+Locale locale = Locale.forLanguageTag("en-US-x-lvariant-POSIX");
+System.out.pritnln(locale);
+```
 
 
 
