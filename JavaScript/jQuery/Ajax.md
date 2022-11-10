@@ -56,6 +56,7 @@ public class CountSearchController {
 		return countMap; //JSONで返すので、Mapにする
 	}
 }
+```
 
 ## 実装例
 
