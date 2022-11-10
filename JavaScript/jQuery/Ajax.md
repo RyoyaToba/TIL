@@ -130,3 +130,20 @@ const checkVersionNumber = () => {
         })
 }
 ```
+
+Controller側の処理
+
+```Java
+/** DBに格納されている管理者のversionNumberを取得し、jsonで返す */
+	@ResponseBody
+	@RequestMapping(value = "/checkVersionNumber", method = RequestMethod.POST)
+	public Map<String, Integer> checkVersionNumber(String email) {
+
+		Map<String, Integer> map = new HashMap<>();
+		Integer savedVersionNumber = adminService.findByEmail(email).getVersionNumber();
+		map.put("savedVersionNumber", savedVersionNumber);
+
+		return map;
+	}
+```
+
