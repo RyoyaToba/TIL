@@ -1,5 +1,11 @@
 ## Spring Batch
 
+SpringBatchの練習に使ったコードは以下に記載
+
+https://github.com/RyoyaToba/SpringBatchChunkSample
+
+https://github.com/RyoyaToba/springBatch_HelloWorldTasklet
+
 ## バッチ処理とは
 
 ### 処理パターン１
