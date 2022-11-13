@@ -4,6 +4,8 @@ SpringBatchの練習に使ったコードは以下に記載
 
 https://github.com/RyoyaToba/springBatchChunkCsvInport
 
+https://github.com/RyoyaToba/springBatchChunkCsvExport-
+
 https://github.com/RyoyaToba/springBatch_HelloWorldTasklet
 
 ## バッチ処理とは
