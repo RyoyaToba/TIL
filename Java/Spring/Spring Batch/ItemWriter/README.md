@@ -1,0 +1,16 @@
+## ItemWriter
+
+書き込み処理のインターフェイスを実装した各クラスの使用方法についてのまとめ
+
+className | Overview
+--|--
+FlatFileItemWriter|処理済みのJavaオブジェクトを、CSVファイルなどのフラットファイルとして書き込みを行う。区切り文字やオブジェクトからファイル行へのマッピングルールをカスタマイズできる。
+StaxEventItemWriter|処理済みのJavaオブジェクトをXMLファイルとして書き込みを行う。
+JdbcBatchItemWriter|JDBCを使用してSQLを実行し、処理済みのJavaオブジェクトをデータベースへ出力する。内部ではJdbcTemplateが使用されている。
+MyBatisBatchItemWriter|MyBatisと連携して、処理済みのJavaオブジェクトをデータベースへ出力する。MyBatisが提供しているSpring連携ライブラリMyBatis-Springから提供されている。
+JmsItemWriter|処理済みのJavaオブジェクトを、JMSやAMQPでメッセージを送信する。
+AmqpItemWriter|処理済みのJavaオブジェクトを、JMSやAMQPでメッセージを送信する。
+
+## 参考
+
+https://terasoluna-batch.github.io/guideline/5.0.0.RELEASE/ja/Ch02_SpringBatchArchitecture.html#Ch02_SpringBatchArch_Detail_ProcessFlow
