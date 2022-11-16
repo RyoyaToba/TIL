@@ -1,6 +1,6 @@
-目的：特定の数字にBackgroundColorを設定する
+## 特定の数字にBackgroundColorを設定する
 
-回答：複数の場合、querySelectorAllで要素を取得し、for文で回す
+複数の場合、querySelectorAllで要素を取得し、for文で回す
 
 **やりたいことのイメージ**
 
