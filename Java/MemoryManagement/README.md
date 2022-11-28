@@ -100,6 +100,12 @@ Javaにはガベージコレクションがメモリの管理をしてくれる�
 * JVM Memory Structure
 * Working of the Garbage Collector
 
+## JVM Memory Structure
+
+JVMは、ヒープ内にさまざまなランタイムデータ領域を作成すんねん。
+これらの領域は、プログラム実行中に使用されて。
+メモリ領域はJVMの終了時に破棄されるんやが、データ領域はスレッドの終了時に破棄されるんや。
+
 
 
 
