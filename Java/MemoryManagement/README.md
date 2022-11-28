@@ -33,10 +33,20 @@ JVMが作成したメモリ領域は、JVMが消失するときに同時に破�
 
 ![Memory](https://user-images.githubusercontent.com/105257856/204286431-1c33d8ab-a5e0-435c-9c0a-e5163d8c65f6.png)
 
-https://www.geeksforgeeks.org/java-memory-management/　より
+https://www.geeksforgeeks.org/java-memory-management/
 
 ではもう少し詳しくみていこう！
 
 ## ヒープ領域
+
+* 共有ランタイムデータ領域で、実際のオブジェクトをメモリに格納するの。仮想マシンの起動時にインスタンス化されるよ
+* このメモリは全てのクラスインスタンスと配列に割り当てられるよ。ヒープはシステムの構成に応じて、静的サイズだったり動的サイズだったりするよ。
+* JVMがヒープのサイズをコントロールしてくれるの。`new`を使ってオブジェクトにヒープ領域が割り当てられて、その参照はスタック領域にあるよ。
+* 実行中のJVMには１つのヒープ領域が存在するよ。
+
+
+
+
+
 
 
