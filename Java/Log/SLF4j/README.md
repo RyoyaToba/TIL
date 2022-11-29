@@ -138,7 +138,7 @@ base.xmlは、defaults.xml、console-appender.xml、file-appender.xmlを読み�
 
 base.xmlは、application.ymlの設定値を参照してログの設定をしている。
 
-より詳細なログ設定を行いたい場合は、これを上書きするためのlogback.xmlを作成し、logback.xmlは、src/main/resourcesの直下に配置する。
+より詳細なログ設定を行いたい場合は、これを上書きするためのlogback.xmlを作成し、logback.xmlは、`src/main/resources`の直下に配置する。
 
 例えば、エラーが発生した場合にメールを送信するといったことが設定できる。
 
