@@ -60,6 +60,23 @@ try {
 }
 ```
 
+## 設定
+
+application.ymlファイルに詳細な設定を記述しておくこともできる。
+
+プロパティ|デフォルト値|説明
+--|--|--
+logging.level.root|info|ルートのログレベル
+logging.file.name|	|ログファイルのパス
+logging.file.path|	|ログファイルの出力先フォルダパス logging.file.nameが優先される
+logging.pattern.dateformat|yyyy-MM-dd HH:mm:ss.SSS|ログの日付フォーマット
+logging.pattern.console|省略|コンソール出力における出力パターン
+logging.pattern.file|省略|ファイル出力における出力パターン
+logging.logback.rollingpolicy.clean-history-on-start|false|アプリケーションの起動時にアーカイブを削除するかどうか
+logging.logback.rollingpolicy.file-name-pattern|${LOG_FILE}.%d{yyyy-MM-dd}.%i.gz|アーカイブファイル名のパターン
+logging.logback.rollingpolicy.max-file-size|10MB|ログファイルの最大サイズ
+logging.logback.rollingpolicy.max-history|7|アーカイブ日数
+logging.logback.rollingpolicy.total-size-cap|0B|ログバックアップの合計サイズ
 
 ## 参考
 
