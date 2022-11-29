@@ -81,7 +81,7 @@ logger.setLevel(Level.INFO);
 ```Java
 public class BasicLoggingSample {
 
-    public static void main(String[] arg) throws SecurityException, IOException {
+    public static void main(String[] args) throws SecurityException, IOException {
         // ロガーを取得してログレベルをINFOに設定
         Logger logger = Logger.getLogger(BasicLoggingSample.class.getName());
         logger.setLevel(Level.INFO);
