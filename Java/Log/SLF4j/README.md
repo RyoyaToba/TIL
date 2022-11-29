@@ -40,6 +40,14 @@ String name = "hoge";
 logger.info("name is {}", name); // name is hoge
 ```
 
+複数の変数を設定することもできる。
+
+```Java
+String name = "hoge";
+Integer age = 27; 
+logger.info("name is {}. age is {}", name, age); // name is hoge. age is 27
+```
+
 ## 参考
 
 https://urashita.com/archives/32595
