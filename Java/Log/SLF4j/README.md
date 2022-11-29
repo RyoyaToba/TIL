@@ -48,6 +48,19 @@ Integer age = 27;
 logger.info("name is {}. age is {}", name, age); // name is hoge. age is 27
 ```
 
+## スタックトレース
+
+スタックトレースを出力したい場合は、例外インスタンスを引数に指定する。
+
+```Java
+try {
+  //...
+} catch (Exception e) {
+  logger.error("system error", e);
+}
+```
+
+
 ## 参考
 
 https://urashita.com/archives/32595
