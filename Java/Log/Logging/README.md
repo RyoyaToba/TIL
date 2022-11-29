@@ -74,6 +74,53 @@ SEVERE | 重大なメッセージ
 logger.setLevel(Level.INFO);
 ```
 
+## 実際に書いてみる
+
+引用（一部微修正有）：　https://qiita.com/Qui/items/40077ce9e33738dd3914
+
+```Java
+public class BasicLoggingSample {
+
+    public static void main(String[] arg) throws SecurityException, IOException {
+        // ロガーを取得してログレベルをINFOに設定
+        Logger logger = Logger.getLogger(BasicLoggingSample.class.getName());
+        logger.setLevel(Level.INFO);
+
+        // ハンドラーを作成してロガーに登録
+        Handler handler = new FileHandler("sample.log");
+        logger.addHandler(handler);
+
+        // フォーマッターを作成してハンドラーに登録
+        SimpleFormatter formatter =  new SimpleFormatter();
+        handler.setFormatter(formatter);
+
+        // INFOメッセージを出力
+        logger.log(Level.INFO, "INFOメッセージ");
+
+        // それぞれのログレベルのメッセージを出力する簡易メソッドが用意されています。
+        logger.finest("FINESTメッセージ");
+        logger.finer("FINERメッセージ");
+        logger.fine("FINEメッセージ");
+        logger.config("CONFIGメッセージ");
+        logger.info("INFOメッセージ");
+        logger.warning("WARNINGメッセージ");
+        logger.severe("SEVEREメッセージ");
+
+        // メッセージは文字列で渡す方法の他に、Supplier<String>を渡す方法もあります。
+        Supplier<String> supplier = new Supplier<String>() {
+            @Override
+            public String get() {
+                return "Supplyメッセージ";
+            }
+        };
+        logger.info(supplier);
+
+        // Exceptionが発生した時のログ出力方法は以下の通り。引数に渡されたThrowableのスタックトレースが出力されます。
+        logger.log(Level.WARNING, "エラーが発生したんだよ〜。", new RuntimeException("ランタイムエラー"));
+    }
+}
+```
+
 ## 参考
 
 [浦下.com　〜ITエンジニアの備忘録〜　Javaロガーとは？](https://urashita.com/archives/32595)
