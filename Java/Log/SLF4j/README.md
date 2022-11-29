@@ -31,6 +31,15 @@ Logback には、TRACE、DEBUG、INFO、WARN、ERRORの順でログレベルが�
 
 SpringBootでは、デフォルトでINFOが設定されているので、特に変更をしなければDEBUG、以下は出力されない。
 
+## フォーマット
+
+出力メッセージには、`{}`を利用することで、変数を格納することができる。
+
+```Java
+String name = "hoge";
+logger.info("name is {}", name); // name is hoge
+```
+
 ## 参考
 
 https://urashita.com/archives/32595
