@@ -12,7 +12,9 @@ Javaの標準ライブラリ。
 
 ### [Apache Commons Logging](https://commons.apache.org/proper/commons-logging/)
 
+ロギングのための抽象レイヤーでそれ自身は何もしない。
+
 ### [Logback](https://logback.qos.ch/)と[SLF４j](https://www.slf4j.org/)
 
-
+log4jの後継にあたり、最も優れたロギングライブラリ（とされている）。
 
