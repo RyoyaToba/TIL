@@ -121,6 +121,32 @@ public class BasicLoggingSample {
 }
 ```
 
+コンソール上での出力
+
+```console
+11月 29, 2022 9:40:19 午前 org.example.BasicLoggingSample main
+情報: INFOメッセージ
+11月 29, 2022 9:40:19 午前 org.example.BasicLoggingSample main
+情報: Supplyメッセージ
+11月 29, 2022 9:40:19 午前 org.example.BasicLoggingSample main
+警告: エラーが発生したんだよ〜。
+java.lang.RuntimeException: ランタイムエラー
+	at org.example.BasicLoggingSample.main(BasicLoggingSample.java:49)
+```
+
+外部ファイルSample.logに以下のログが出力
+
+```file
+11月 29, 2022 9:40:19 午前 org.example.BasicLoggingSample main
+情報: INFOメッセージ
+11月 29, 2022 9:40:19 午前 org.example.BasicLoggingSample main
+情報: Supplyメッセージ
+11月 29, 2022 9:40:19 午前 org.example.BasicLoggingSample main
+警告: エラーが発生したんだよ〜。
+java.lang.RuntimeException: ランタイムエラー
+	at org.example.BasicLoggingSample.main(BasicLoggingSample.java:49)
+```
+
 ## 参考
 
 [浦下.com　〜ITエンジニアの備忘録〜　Javaロガーとは？](https://urashita.com/archives/32595)
