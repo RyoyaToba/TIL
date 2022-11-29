@@ -29,6 +29,7 @@ SpringBootでは、Controller内でloggerを呼び出すと以下のように記
 
 Logback には、TRACE、DEBUG、INFO、WARN、ERRORの順でログレベルが存在する。
 
+SpringBootでは、デフォルトでINFOが設定されているので、特に変更をしなければDEBUG、以下は出力されない。
 
 ## 参考
 
