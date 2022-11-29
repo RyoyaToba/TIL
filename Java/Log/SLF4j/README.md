@@ -82,6 +82,19 @@ logging.logback.rollingpolicy.total-size-cap|0B|ログバックアップの合�
 
 ログの出力パターンは、以下のパターンレイアウトを使用して設定する。
 
+### 変換指定子
+
+日付など、特定の値を表す文字で、`%`を先頭につける。
+
+文字|例|説明
+--|--|--
+c, lo, logger	| %c, %c{0}	| Logger生成時に指定したクラスまたはロガーの名前
+d, date	| %d{yyyy-MM-dd HH:mm:ss.SS} | 日時
+m, msg, message	| %m |	logger.info()などで指定したメッセージ
+n | %n | 改行
+p, le, level | %p | ログレベル
+replace	| %replace(%m){'\s', ''} | 文字の置換
+
 ## 参考
 
 https://urashita.com/archives/32595
