@@ -23,22 +23,10 @@ SpringBootでは、Controller内でloggerを呼び出すと以下のように記
 2021-04-23 10:00:00.235  INFO 28304 --- [nio-8080-exec-2] app.controller.SampleController     : access GET sample
 ```
 
+## ログレベル
 
+Logback には、TRACE、DEBUG、INFO、WARN、ERRORの順でログレベルが存在する。
 
-HelloWorldをログ出力するSampleコードは以下
-
-```Java
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-public class HelloWorld {
-
-  public static void main(String[] args) {
-    Logger logger = LoggerFactory.getLogger(HelloWorld.class);
-    logger.info("Hello World");
-  }
-}
-```
 
 ## 参考
 
