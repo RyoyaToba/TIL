@@ -105,6 +105,19 @@ replace	| %replace(%m){'\s', ''} | 文字の置換
 %30(%d{yyyy-MM-dd HH:mm:ss.SSS} %m)
 ```
 
+### 色指定
+
+色|通常|濃い（太い）
+--|--|--
+黒|%black|
+赤|%red|%boldRed
+緑|%green|%boldGreen
+黄|%yellow|%boldYellow
+青|%blue|%boldBlue
+マゼンタ|%magenta|%boldMagenta
+シアン|%cyan|%boldCyan
+白|%white|%boldWhite
+灰|%gray|
 
 
 ## 参考
