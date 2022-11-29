@@ -119,6 +119,14 @@ replace	| %replace(%m){'\s', ''} | 文字の置換
 白|%white|%boldWhite
 灰|%gray|
 
+上記以外に%highlightがあり、これはログレベルによって色が変わるように設定できる。
+
+ログレベル | 色
+--|--
+ERROR|%boldRed
+WARN|%red
+INFO|%blue
+その他|デフォルト値
 
 ## 参考
 
