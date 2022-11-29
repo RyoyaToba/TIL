@@ -101,6 +101,12 @@ replace	| %replace(%m){'\s', ''} | 文字の置換
 
 また書式修飾子は、()を使ってグループ化した文字に対して指定することもできる。 ()を使用したい場合は、\でエスケープする。
 
+```Java
+%30(%d{yyyy-MM-dd HH:mm:ss.SSS} %m)
+```
+
+
+
 ## 参考
 
 https://urashita.com/archives/32595
