@@ -19,6 +19,8 @@ SpringBootでは、Controller内でloggerを呼び出すと以下のように記
     logger.info("access GET sample");
 ```
 
+コンソール出力結果
+
 ```console
 2021-04-23 10:00:00.235  INFO 28304 --- [nio-8080-exec-2] app.controller.SampleController     : access GET sample
 ```
