@@ -128,6 +128,20 @@ WARN|%red
 INFO|%blue
 その他|デフォルト値
 
+## logback.xml
+
+springBootのデフォルトのログ設定は、base.xmlに書かれている。
+
+base.xmlは、defaults.xml、console-appender.xml、file-appender.xmlを読み込みこむ。 
+
+これら 3つのファイルには、コンソールとファイル出力に関する設定が記述されている。
+
+base.xmlは、application.ymlの設定値を参照してログの設定をしている。
+
+より詳細なログ設定を行いたい場合は、これを上書きするためのlogback.xmlを作成し、logback.xmlは、src/main/resourcesの直下に配置する。
+
+例えば、エラーが発生した場合にメールを送信するといったことが設定できる。
+
 ## 参考
 
 https://urashita.com/archives/32595
