@@ -1,6 +1,29 @@
 ## [Logback](#)と[SLF4j](https://www.slf4j.org/download.html)
 
-SLF4jを利用するには、外部jarを導入する必要がある。
+LogbackとSLF4j(以下まとめてLogbackと呼ぶ)はSpringBootであればデフォルトで装備されている。
+SpringBootを使わない場合は、外部jarをダウンロードする必要がある。
+
+## 基本的な使い方
+
+以下のコード例のように、LoggerFactoryを利用してLoggerインターフェイスを生成する。
+
+```Java
+Logger logger = LoggerFactory.getLogger(SampleController.class);
+```
+
+SpringBootでは、Controller内でloggerを呼び出すと以下のように記述すれば、コンソール上にログが出力される。
+
+```Java
+@GetMapping("sample")
+  public String get() {
+    logger.info("access GET sample");
+```
+
+```console
+2021-04-23 10:00:00.235  INFO 28304 --- [nio-8080-exec-2] app.controller.SampleController     : access GET sample
+```
+
+
 
 HelloWorldをログ出力するSampleコードは以下
 
