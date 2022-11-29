@@ -39,15 +39,40 @@ logger.addHandler(handler);
 
 ### Formatterの設定
 
-ログのフォーマットを設定するオブジェクト。
+ログのフォーマットを設定するオブジェクト。人間が読みやすいように成形することができる。
+詳細な設定をpropertyファイル内で設定できるようで、その辺は今後の学習課題。
 
+```Java
+Formatter formatter =  new SimpleFormatter();
+handler.setFormatter(formatter);
+```
 
+Sampleコード
+
+```Java
+SimpleFormatter formatter =  new SimpleFormatter();
+handler.setFormatter(formatter);
+```
 
 ### 出力するログレベルを設定する
 
+Loggingが設定しているログレベルは以下の通り。
 
+LogLevel|reference
+--|--
+FINEST | 非常に詳細なトレースメッセージ
+FINER | かなり詳細なトレースメッセージ
+FINE | 詳細なトレースメッセージ
+CONFIG | 静的な構成メッセージ
+INFO | 情報メッセージ
+WARNING | 警告メッセージ
+SEVERE | 重大なメッセージ
 
+設定する時は、出力する最低レベルを指定する。INFOを指定すればログに出力されるのは、INFO、WARNING、SEVEREとなる。
 
+```Java
+logger.setLevel(Level.INFO);
+```
 
 ## 参考
 
