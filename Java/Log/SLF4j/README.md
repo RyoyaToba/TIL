@@ -78,6 +78,10 @@ logging.logback.rollingpolicy.max-file-size|10MB|ログファイルの最大サ�
 logging.logback.rollingpolicy.max-history|7|アーカイブ日数
 logging.logback.rollingpolicy.total-size-cap|0B|ログバックアップの合計サイズ
 
+## パターンレイアウト
+
+ログの出力パターンは、以下のパターンレイアウトを使用して設定する。
+
 ## 参考
 
 https://urashita.com/archives/32595
