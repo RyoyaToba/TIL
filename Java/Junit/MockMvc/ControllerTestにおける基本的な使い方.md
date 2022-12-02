@@ -38,5 +38,13 @@ void setUp() throws Exception {
 }
 ```
 
+## レスポンスのステータスコードをチェックする
+
+レスポンスのステータスコードをチェックするには、mockMvcのperformメソッドを利用してリクエストを実行し、andExpectメソッドでレスポンスに対するテストを実行する。
+
+```Java
+mockMvc.perform(get("/sample")).andExpect(status(), isOk());
+```
+
 ## 参考
 
