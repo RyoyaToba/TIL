@@ -172,14 +172,10 @@
       - [Formから値を受け取るときのHTML側の書き方](/Java/thymeleaf/Formから値を受け取るときのHTML側の書き方.md)
       
       - [バリデーションチェック](/Java/thymeleaf/バリデーションチェック.md)
-    
-    - JPA
-    
-      - [JPAとは](/Java/JPA/JPAとは.md)
-    
+   
     - MyBatis
     
-      - [MyBatisとは](Java/Spring/MyBatis/MyBatisとは.md)
+      - [概要](Java/Spring/MyBatis/MyBatisとは.md)
       
       - [動的SQL](Java/Spring/MyBatis/動的SQL.md)
       
@@ -205,7 +201,7 @@
      
      - [Jsoup基本](Java/Jsoup/Jsoup基本.md)
      
-     - [NetKeibaスクレイピング](Java/Jsoup/NetKeibaスクレイピング例.md)
+     - [スクレイピング例](Java/Jsoup/NetKeibaスクレイピング例.md)
   
   - Java Silver
 
