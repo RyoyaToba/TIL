@@ -73,7 +73,7 @@
   
   - JavaEE
  
-  - JavaAPI
+  - Javaのメソッドなど
 
      - ArrayList
         
