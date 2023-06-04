@@ -25,6 +25,11 @@ AWSクラウド上の仮想サーバーを提供する、AWSの代表的なコ�
 
 EC2インスタンスを作成する際に使用する仮想マシーンイメージで、EBSのスナップショットとEC2インスタンスの構成情報から構成されている。
 
+OSには、Red Hat Enterprise Linuxや、Ubuntuなどの各種Linuxディストリビュージョンと、Microsoft Windows Serverの他、AWSが提供しているAmazon Linuxが利用可能。
+
+AMIをAuto Scallingなどのサービスで指定することで、同じ設定のEC2インスタンスを、必要な時に必要な分だけ自動で構築することができる。
+
+
 
 
 
