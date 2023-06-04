@@ -29,10 +29,17 @@ OSには、Red Hat Enterprise Linuxや、Ubuntuなどの各種Linuxディスト�
 
 AMIをAuto Scallingなどのサービスで指定することで、同じ設定のEC2インスタンスを、必要な時に必要な分だけ自動で構築することができる。
 
+AMIは、<b>EBS-Backend</b>もしくは<b>Instance Store-Backend</b>のどちらかに分類される。
 
+<br>
 
+#### EBS-Backend
 
+EBSをOSのルート領域として利用したEC2インスタンス。
 
+#### Instance Store-Backend
+
+インスタンスストアをOSのルート領域として利用したEC2インスタンス。
 
 
 
