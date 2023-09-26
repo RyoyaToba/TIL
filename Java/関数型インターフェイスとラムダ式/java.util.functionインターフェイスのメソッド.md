@@ -1,5 +1,7 @@
 ## java.util.functionインターフェイスのメソッド.md
 
+<br>
+
 最初に一覧を紹介
 
 <br>
