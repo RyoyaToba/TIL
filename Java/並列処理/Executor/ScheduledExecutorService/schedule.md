@@ -14,7 +14,7 @@ long型の遅延させる時間
 
 遅延させる時間の単位（`java.util.concurrent.TimeUnit`列挙型）
 
-この列挙型には24時間を表すDAYS、1時間を表すHOURS、1分を表すMINUTES、1秒を表すSECONDS喉の列挙定数が定義されており、第二引数と合わせて、遅延させる時間を表現する。
+この列挙型には24時間を表すDAYS、1時間を表すHOURS、1分を表すMINUTES、1秒を表すSECONDSの列挙定数が定義されており、第二引数と合わせて、遅延させる時間を表現する。
 
 ```Java
 public class Sample{
