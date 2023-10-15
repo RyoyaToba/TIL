@@ -16,3 +16,18 @@ public static void main(Sring[] args) {
 特定の文字セットを扱うCharsetのインスタンスを取得するには、コード例のようにforNameメソッドに文字コード名を渡す。
 そのインスタンスへの参照をFileReaderクラスのコンストラクタの第二引数に渡すことで、指定した文字コードでプロパティファイルが読み込まれる。
 
+
+その他にも、次のコード例のように`java.io.InputStreamReaderクラス`のコンストラクタの第二引数で文字コードを指定する方法もある。
+
+```java
+public static void main(String[] args) {
+  Properties prop = new Properties();
+  prop.load (new InputStreamReader(
+              new FileInputStream("sample.properties"),
+              "utf-8"
+            ));
+  System.out.println(prop.getProperty("test"));
+}
+```
+
+
