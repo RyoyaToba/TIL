@@ -37,6 +37,7 @@ DateTimeFormatter.ofPattern("yyyy年mm月dd日")
 フォーマットの指定には、列挙型の`java.time.format.FormatStyle`を利用する。
 
 定数|説明
+--|--
 FULL|最も詳細なフルテキスト・スタイル
 LONG|詳細なテキスト・スタイル
 MEDIUM|やや詳細なテキスト・スタイル
