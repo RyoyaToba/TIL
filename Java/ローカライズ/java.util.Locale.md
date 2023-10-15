@@ -41,8 +41,8 @@ Localクラスのコンストラクタは、引数に言語コード、国コー
 * Locale(String language, String country)
 * Locale(String language, String country, String variant)
 
-コンストラクタの第三引数の派生情報は、ベンダーまたはブラウザに固有のコードで、例えば、WindowsにはWIN、MacにはMACなどを使う。もし、派生情報が2つある場合には、それらをアンダースコアで区切り、重要なものを
-先に指定する。
+コンストラクタの第三引数の派生情報は、ベンダーまたはブラウザに固有のコードで、例えば、WindowsにはWIN、MacにはMACなどを使う。
+もし、派生情報が2つある場合には、それらをアンダースコアで区切り、重要なものを先に指定する。
 
 Locale locale = new Locale("es", "ES", "Traditional_WIN");
 
