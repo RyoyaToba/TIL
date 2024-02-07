@@ -32,38 +32,6 @@
 
 * [リファクタリング](#リファクタリング)
 
-## AWS
-
-
-## CSS
-
-
-## DataBase
-
-## Docker
-
-## Java
-
- 
-   
-## JavaScript
-
-  
-  
-## Linux
-
-
-  
-## OpenAPI
-
-## SQL
-
-## cron
-
-## Git
-
-## 応用情報
-
 ## 開発
 
 
