@@ -5,7 +5,7 @@
 
 [SQLServer公式より引用](https://learn.microsoft.com/ja-jp/sql/t-sql/functions/logical-functions-greatest-transact-sql?view=sql-server-ver16)
 
-構文
+### 構文
 
 ```
 GREATEST ( expression1 [ , ...expressionN ] )
