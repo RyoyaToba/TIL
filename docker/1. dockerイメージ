@@ -1,0 +1,12 @@
+## dockerイメージ
+
+dockerイメージとは、dockerコンテナの動作環境となるテンプレートファイルのこと。
+dockerイメージには、OSやアプリケーションからアプリケーションの実行に使われるコマンド、メタデータまで含まれる。
+
+dockerコンテナを実行するためには、dockerイメージが必要。
+dockerイメージを走らせる(run)することで、dockerコンテナを作成することができる。
+
+dockerイメージを作るには、設計書にあたるdockerfileを作成する。
+dockerファイルは、dockerコンテナの設計内容をコマンド形式でまとめたテキストファイルのこと。
+
+https://www.kagoya.jp/howto/cloud/container/dockerimage/
