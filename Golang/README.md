@@ -2,7 +2,7 @@
 
 1. [Hello world](1.%20Hello%20world.md)
 2. [import](2.%20import.md)
-3. 変数宣言
+3. [変数宣言](3.%20変数宣言.md)
 4. 定数宣言
 5. 型
 6. 型変換
