@@ -34,7 +34,8 @@
 
 コンテナを起動するタスクを定義するもの。
 
-docker-compose.ymlと同義。
+`docker-compose.yml`と同義。
 
-### 
+### 参考
 
+[【AWS 入門】20分でFARGATEの基本を解説する](https://www.youtube.com/watch?v=Bq-DT30hesA)
