@@ -36,6 +36,8 @@
 
 `docker-compose.yml`と同義。
 
+何のコンテナを使うか？どんなスペックなのか？ログはどうするのか？マウントはどうするのか？など。
+
 ### 参考
 
 [【AWS 入門】20分でFARGATEの基本を解説する](https://www.youtube.com/watch?v=Bq-DT30hesA)
