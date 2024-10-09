@@ -1,6 +1,6 @@
 ## Golang
 
-1. [Hello world](1.+Hello+world.md)
+1. [Hello world](1.Hello+world.md)
 2. import
 3. 変数宣言
 4. 定数宣言
